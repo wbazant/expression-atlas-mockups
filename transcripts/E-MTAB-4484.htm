@@ -1,15 +1,19 @@
-
 <!-- saved from url=(0305)http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&filterFactors=%257B%257D&cutoff=%257B%2522value%2522%253A0.5%257D&unit=%2522TPM%2522 -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>Experiment &lt; Expression Atlas &lt; EMBL-EBI</title>
+    <meta http-equiv="refresh" content="1">
     <meta name="description" content="EMBL-EBI Expression Atlas, an open public repository of gene expression pattern data under different biological conditions">
     <meta name="keywords" content="expression atlas, gene expression, baseline expression, differential expression, functional genomics, public repository, repository, bioinformatics, europe, institute">
     <meta name="author" content="EMBL-EBI Expression Atlas development team: github.com/gxa/atlas/graphs/contributors">
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="width">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="#70BDBD"> <!-- Android Chrome mobile browser tab color -->
+    <meta name="theme-color" content="#70BDBD">
+    <!-- Android Chrome mobile browser tab color -->
 
     <!-- Add information on the life cycle of this page -->
     <meta name="ebi:owner" content="Irene Papatheodorou &lt;irenep@ebi.ac.uk&gt;">
@@ -29,16 +33,22 @@
     <link rel="icon" type="image/png" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/favicon-32x32.png" sizes="32x32">
 
-    <link rel="icon" type="image/png" sizes="192×192" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/android-chrome-192x192.png"> <!-- Android (192px) -->
+    <link rel="icon" type="image/png" sizes="192×192" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/android-chrome-192x192.png">
+    <!-- Android (192px) -->
     <link rel="manifest" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/manifest.json">
 
     <!-- Apple icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-icon-114x114.png"> <!-- For iPhone 4 Retina display (114px) -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-icon-72x72.png"> <!-- For iPad (72px) -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-icon-144x144.png"> <!-- For iPad retina (144px) -->
-    <link rel="apple-touch-icon-precomposed" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-icon-57x57.png"> <!-- For iPhone (57px) -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-icon-114x114.png">
+    <!-- For iPhone 4 Retina display (114px) -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-icon-72x72.png">
+    <!-- For iPad (72px) -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-icon-144x144.png">
+    <!-- For iPad retina (144px) -->
+    <link rel="apple-touch-icon-precomposed" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-icon-57x57.png">
+    <!-- For iPhone (57px) -->
     <link rel="apple-touch-icon" sizes="180x180" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/apple-touch-icon.png">
-    <link rel="mask-icon" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/safari-pinned-tab.svg" color="#5bbad5"> <!-- Safari icon for pinned tab -->
+    <link rel="mask-icon" href="http://www-test.ebi.ac.uk/gxa/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- Safari icon for pinned tab -->
 
     <!-- MS icons -->
     <meta name="msapplication-TileColor" content="#da532c">
@@ -67,628 +77,1328 @@
 
 
 
-<style type="text/css">.gene-autocomplete input {
-    text-overflow: ellipsis;
-    font-size: larger;
-    font-weight: bolder;
-    text-align: center;
-    color: #555;
-    background: #fff !important;
-    height: 2.4375rem;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    border: 1px solid ;
-    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-}
+    <style type="text/css">
+        .gene-autocomplete input {
+            text-overflow: ellipsis;
+            font-size: larger;
+            font-weight: bolder;
+            text-align: center;
+            color: #555;
+            background: #fff !important;
+            height: 2.4375rem;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            border: 1px solid;
+            box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+        }
 
-.gene-autocomplete .menu {
-    font-size: small;
-  background: white;
-  z-index: 2;
-  padding:0;
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-}
+        .gene-autocomplete .menu {
+            font-size: small;
+            background: white;
+            z-index: 2;
+            padding: 0;
+            box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        }
 
-.gene-autocomplete .menu .menu-element {
-  cursor: pointer;
-  z-index: 600;
-  padding: 6px;
-  word-wrap: break-word;
-}
-</style><style type="text/css">.gxaTag {
-  overflow: hidden;
-  white-space: pre-wrap;
-  display: inline-flex;
-  margin: 0 0.2rem 0.2rem 0;
-}
-</style><style type="text/css">.oneProperty {
-  font-style: italic;
-}
-.oneProperty .unselected {
-  color: grey;
-}
-.gxaSection .title {
-  margin-right: 0.5rem;
-  display: inline-block;
-}
-.gxaSection .title.openable {
-  cursor: pointer;
-}
-.gxaSection .title.openable:hover {
-  text-decoration: underline;
-}
-.readOnlyGrouping {
-  font-style: italic;
-}
-.readOnlyGrouping.unselected {
-  color: grey;
-}
-.checkboxGrouping input {
-  margin: 0.2rem;
-  cursor: pointer;
-}
-.checkboxGrouping.partiallySelected input {
-  opacity: 0.6;
-}
-.sectionBody {
-  padding-left: 15px;
-  font-size: 85%;
-  -webkit-column-width: 180px;
-  -moz-column-width: 180px;
-  column-width: 180px;
-}
-.sectionBody .linkForToggleShow {
-  cursor: pointer;
-  font-style: italic;
-}
-</style><style type="text/css">/*! ========================================================================
+        .gene-autocomplete .menu .menu-element {
+            cursor: pointer;
+            z-index: 600;
+            padding: 6px;
+            word-wrap: break-word;
+        }
+    </style>
+    <style type="text/css">
+        .gxaTag {
+            overflow: hidden;
+            white-space: pre-wrap;
+            display: inline-flex;
+            margin: 0 0.2rem 0.2rem 0;
+        }
+    </style>
+    <style type="text/css">
+        .oneProperty {
+            font-style: italic;
+        }
+
+        .oneProperty .unselected {
+            color: grey;
+        }
+
+        .gxaSection .title {
+            margin-right: 0.5rem;
+            display: inline-block;
+        }
+
+        .gxaSection .title.openable {
+            cursor: pointer;
+        }
+
+        .gxaSection .title.openable:hover {
+            text-decoration: underline;
+        }
+
+        .readOnlyGrouping {
+            font-style: italic;
+        }
+
+        .readOnlyGrouping.unselected {
+            color: grey;
+        }
+
+        .checkboxGrouping input {
+            margin: 0.2rem;
+            cursor: pointer;
+        }
+
+        .checkboxGrouping.partiallySelected input {
+            opacity: 0.6;
+        }
+
+        .sectionBody {
+            padding-left: 15px;
+            font-size: 85%;
+            -webkit-column-width: 180px;
+            -moz-column-width: 180px;
+            column-width: 180px;
+        }
+
+        .sectionBody .linkForToggleShow {
+            cursor: pointer;
+            font-style: italic;
+        }
+    </style>
+    <style type="text/css">
+        /*! ========================================================================
  * Bootstrap Toggle: bootstrap-toggle.css v2.2.0
  * http://www.bootstraptoggle.com
  * ========================================================================
  * Copyright 2014 Min Hur, The New York Times Company
  * Licensed under MIT
  * ======================================================================== */
-.checkbox label .toggle,.checkbox-inline .toggle{margin-left:-20px;margin-right:5px}
-.toggle{position:relative;overflow:hidden}
-.toggle input[type=checkbox]{display:none}
-.toggle-group{position:absolute;width:200%;top:0;bottom:0;left:0;transition:left .35s;-webkit-transition:left .35s;-moz-user-select:none;-webkit-user-select:none}
-.toggle.off .toggle-group{left:-100%}
-.toggle-on{position:absolute;top:0;bottom:0;left:0;right:50%;margin:0;border:0;border-radius:0}
-.toggle-off{position:absolute;top:0;bottom:0;left:50%;right:0;margin:0;border:0;border-radius:0}
-.toggle-handle{position:relative;margin:0 auto;padding-top:0;padding-bottom:0;height:100%;width:0;border-width:0 1px}
-.toggle.btn{min-width:59px;min-height:34px}
-.toggle-on.btn{padding-right:24px}
-.toggle-off.btn{padding-left:24px}
-.toggle.btn-lg{min-width:79px;min-height:45px}
-.toggle-on.btn-lg{padding-right:31px}
-.toggle-off.btn-lg{padding-left:31px}
-.toggle-handle.btn-lg{width:40px}
-.toggle.btn-sm{min-width:50px;min-height:30px}
-.toggle-on.btn-sm{padding-right:20px}
-.toggle-off.btn-sm{padding-left:20px}
-.toggle.btn-xs{min-width:35px;min-height:22px}
-.toggle-on.btn-xs{padding-right:12px}
-.toggle-off.btn-xs{padding-left:12px}
-</style><style type="text/css">.gxaButtonUnset {
-  text-transform: unset;
-  letter-spacing: unset;
-  height: unset;
-}</style><style type="text/css">.gxaCapitalize:first-letter {
-    text-transform: capitalize;
-}
 
-.gxaInline {
-    display: inline-block;
-}
+        .checkbox label .toggle,
+        .checkbox-inline .toggle {
+            margin-left: -20px;
+            margin-right: 5px
+        }
 
-.gxaPaddingLeftSmall {
-    padding-left: 5px;
-}</style><style type="text/css">.gxaHeatmapLegend {
-  color: #606060;
-  border: 0 solid olive;
-}
-.gxaHeatmapLegend .legend-item {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 4px;
-  vertical-align: middle;
-  cursor: default;
-}
-.gxaHeatmapLegend .legend-item.legend-item-off {
-  color: #ccc;
-}
-.gxaHeatmapLegend .legend-item.legend-item-off div {
-  background-color: #f7f7f7;
-}
-.gxaHeatmapLegend .legend-item .legend-rectangle {
-  width: 12px;
-  height: 12px;
-  border: 1px rgba(0, 0, 0, 0.2) solid;
-  display: inline-block;
-  margin-right: 4px;
-  vertical-align: middle;
-}
-.gxaHeatmapLegend .legend-item .gxaInfoIcon:before {
-  font-size: 180%;
-  color: #7e7e7e;
-}
-.gxaHeatmapLegend .legend-item:hover .gxaInfoIcon:before {
-  color: #353535;
-}
-.gxaInfoIcon:before {
-  font-family: 'EBI-Generic', 'sans-serif';
-  font-size: 100%;
-  color: #BBB;
-  content: attr(data-icon);
-  margin: 0 0 0 0;
-}
-</style><style type="text/css">.gxaGradientLegend {
-  font-size: 12px;
-  padding-top: 10px;
-  margin-left: 10px;
-  text-align: center;
-  display: inline-block;
-}
-.gxaGradientColour {
-  overflow: auto;
-  height: 15px;
-  margin: 2px 6px 2px 6px;
-  vertical-align: middle;
-  width: 200px;
-  display: inline-block;
-}
-.gxaGradientLevel {
-  white-space: nowrap;
-  font-size: 10px;
-  vertical-align: middle;
-  display: table-cell;
-}
-.gxaGradientLevelMin {
-  text-align: right;
-}
-.gxaGradientLevelMax {
-  text-align: left;
-}
-</style><style type="text/css">.rc-slider {
-  position: relative;
-  height: 14px;
-  padding: 5px 0;
-  width: 100%;
-  border-radius: 6px;
-  -ms-touch-action: none;
-      touch-action: none;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.rc-slider * {
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.rc-slider-rail {
-  position: absolute;
-  width: 100%;
-  background-color: #e9e9e9;
-  height: 4px;
-  border-radius: 6px;
-}
-.rc-slider-track {
-  position: absolute;
-  left: 0;
-  height: 4px;
-  border-radius: 6px;
-  background-color: #abe2fb;
-}
-.rc-slider-handle {
-  position: absolute;
-  margin-left: -7px;
-  margin-top: -5px;
-  width: 14px;
-  height: 14px;
-  cursor: pointer;
-  cursor: -webkit-grab;
-  cursor: grab;
-  border-radius: 50%;
-  border: solid 2px #96dbfa;
-  background-color: #fff;
-  -ms-touch-action: pan-x;
-      touch-action: pan-x;
-}
-.rc-slider-handle:hover {
-  border-color: #57c5f7;
-}
-.rc-slider-handle:active {
-  border-color: #57c5f7;
-  box-shadow: 0 0 5px #57c5f7;
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
-}
-.rc-slider-handle:focus {
-  border-color: #57c5f7;
-  box-shadow: 0 0 0 5px #96dbfa;
-  outline: none;
-}
-.rc-slider-mark {
-  position: absolute;
-  top: 18px;
-  left: 0;
-  width: 100%;
-  font-size: 12px;
-}
-.rc-slider-mark-text {
-  position: absolute;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  cursor: pointer;
-  color: #999;
-}
-.rc-slider-mark-text-active {
-  color: #666;
-}
-.rc-slider-step {
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background: transparent;
-}
-.rc-slider-dot {
-  position: absolute;
-  bottom: -2px;
-  margin-left: -4px;
-  width: 8px;
-  height: 8px;
-  border: 2px solid #e9e9e9;
-  background-color: #fff;
-  cursor: pointer;
-  border-radius: 50%;
-  vertical-align: middle;
-}
-.rc-slider-dot:first-child {
-  margin-left: -4px;
-}
-.rc-slider-dot:last-child {
-  margin-left: -4px;
-}
-.rc-slider-dot-active {
-  border-color: #96dbfa;
-}
-.rc-slider-disabled {
-  background-color: #e9e9e9;
-}
-.rc-slider-disabled .rc-slider-track {
-  background-color: #ccc;
-}
-.rc-slider-disabled .rc-slider-handle,
-.rc-slider-disabled .rc-slider-dot {
-  border-color: #ccc;
-  box-shadow: none;
-  background-color: #fff;
-  cursor: not-allowed;
-}
-.rc-slider-disabled .rc-slider-mark-text,
-.rc-slider-disabled .rc-slider-dot {
-  cursor: not-allowed !important;
-}
-.rc-slider-vertical {
-  width: 14px;
-  height: 100%;
-  padding: 0 5px;
-}
-.rc-slider-vertical .rc-slider-rail {
-  height: 100%;
-  width: 4px;
-}
-.rc-slider-vertical .rc-slider-track {
-  left: 5px;
-  bottom: 0;
-  width: 4px;
-}
-.rc-slider-vertical .rc-slider-handle {
-  margin-left: -5px;
-  margin-bottom: -7px;
-  -ms-touch-action: pan-y;
-      touch-action: pan-y;
-}
-.rc-slider-vertical .rc-slider-mark {
-  top: 0;
-  left: 18px;
-  height: 100%;
-}
-.rc-slider-vertical .rc-slider-step {
-  height: 100%;
-  width: 4px;
-}
-.rc-slider-vertical .rc-slider-dot {
-  left: 2px;
-  margin-bottom: -4px;
-}
-.rc-slider-vertical .rc-slider-dot:first-child {
-  margin-bottom: -4px;
-}
-.rc-slider-vertical .rc-slider-dot:last-child {
-  margin-bottom: -4px;
-}
-.rc-slider-tooltip-zoom-down-enter,
-.rc-slider-tooltip-zoom-down-appear {
-  -webkit-animation-duration: .3s;
-          animation-duration: .3s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  display: block !important;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-.rc-slider-tooltip-zoom-down-leave {
-  -webkit-animation-duration: .3s;
-          animation-duration: .3s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  display: block !important;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-.rc-slider-tooltip-zoom-down-enter.rc-slider-tooltip-zoom-down-enter-active,
-.rc-slider-tooltip-zoom-down-appear.rc-slider-tooltip-zoom-down-appear-active {
-  -webkit-animation-name: rcSliderTooltipZoomDownIn;
-          animation-name: rcSliderTooltipZoomDownIn;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-}
-.rc-slider-tooltip-zoom-down-leave.rc-slider-tooltip-zoom-down-leave-active {
-  -webkit-animation-name: rcSliderTooltipZoomDownOut;
-          animation-name: rcSliderTooltipZoomDownOut;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-}
-.rc-slider-tooltip-zoom-down-enter,
-.rc-slider-tooltip-zoom-down-appear {
-  -webkit-transform: scale(0, 0);
-          transform: scale(0, 0);
-  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-          animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-}
-.rc-slider-tooltip-zoom-down-leave {
-  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-          animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-}
-@-webkit-keyframes rcSliderTooltipZoomDownIn {
-  0% {
-    opacity: 0;
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-transform: scale(0, 0);
+        .toggle {
+            position: relative;
+            overflow: hidden
+        }
+
+        .toggle input[type=checkbox] {
+            display: none
+        }
+
+        .toggle-group {
+            position: absolute;
+            width: 200%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            transition: left .35s;
+            -webkit-transition: left .35s;
+            -moz-user-select: none;
+            -webkit-user-select: none
+        }
+
+        .toggle.off .toggle-group {
+            left: -100%
+        }
+
+        .toggle-on {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 50%;
+            margin: 0;
+            border: 0;
+            border-radius: 0
+        }
+
+        .toggle-off {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            right: 0;
+            margin: 0;
+            border: 0;
+            border-radius: 0
+        }
+
+        .toggle-handle {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 0;
+            padding-bottom: 0;
+            height: 100%;
+            width: 0;
+            border-width: 0 1px
+        }
+
+        .toggle.btn {
+            min-width: 59px;
+            min-height: 34px
+        }
+
+        .toggle-on.btn {
+            padding-right: 24px
+        }
+
+        .toggle-off.btn {
+            padding-left: 24px
+        }
+
+        .toggle.btn-lg {
+            min-width: 79px;
+            min-height: 45px
+        }
+
+        .toggle-on.btn-lg {
+            padding-right: 31px
+        }
+
+        .toggle-off.btn-lg {
+            padding-left: 31px
+        }
+
+        .toggle-handle.btn-lg {
+            width: 40px
+        }
+
+        .toggle.btn-sm {
+            min-width: 50px;
+            min-height: 30px
+        }
+
+        .toggle-on.btn-sm {
+            padding-right: 20px
+        }
+
+        .toggle-off.btn-sm {
+            padding-left: 20px
+        }
+
+        .toggle.btn-xs {
+            min-width: 35px;
+            min-height: 22px
+        }
+
+        .toggle-on.btn-xs {
+            padding-right: 12px
+        }
+
+        .toggle-off.btn-xs {
+            padding-left: 12px
+        }
+    </style>
+    <style type="text/css">
+        .gxaButtonUnset {
+            text-transform: unset;
+            letter-spacing: unset;
+            height: unset;
+        }
+    </style>
+    <style type="text/css">
+        .gxaCapitalize:first-letter {
+            text-transform: capitalize;
+        }
+
+        .gxaInline {
+            display: inline-block;
+        }
+
+        .gxaPaddingLeftSmall {
+            padding-left: 5px;
+        }
+    </style>
+    <style type="text/css">
+        .gxaHeatmapLegend {
+            color: #606060;
+            border: 0 solid olive;
+        }
+
+        .gxaHeatmapLegend .legend-item {
+            display: inline-block;
+            margin-left: 8px;
+            padding: 4px;
+            vertical-align: middle;
+            cursor: default;
+        }
+
+        .gxaHeatmapLegend .legend-item.legend-item-off {
+            color: #ccc;
+        }
+
+        .gxaHeatmapLegend .legend-item.legend-item-off div {
+            background-color: #f7f7f7;
+        }
+
+        .gxaHeatmapLegend .legend-item .legend-rectangle {
+            width: 12px;
+            height: 12px;
+            border: 1px rgba(0, 0, 0, 0.2) solid;
+            display: inline-block;
+            margin-right: 4px;
+            vertical-align: middle;
+        }
+
+        .gxaHeatmapLegend .legend-item .gxaInfoIcon:before {
+            font-size: 180%;
+            color: #7e7e7e;
+        }
+
+        .gxaHeatmapLegend .legend-item:hover .gxaInfoIcon:before {
+            color: #353535;
+        }
+
+        .gxaInfoIcon:before {
+            font-family: 'EBI-Generic', 'sans-serif';
+            font-size: 100%;
+            color: #BBB;
+            content: attr(data-icon);
+            margin: 0 0 0 0;
+        }
+    </style>
+    <style type="text/css">
+        .gxaGradientLegend {
+            font-size: 12px;
+            padding-top: 10px;
+            margin-left: 10px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .gxaGradientColour {
+            overflow: auto;
+            height: 15px;
+            margin: 2px 6px 2px 6px;
+            vertical-align: middle;
+            width: 200px;
+            display: inline-block;
+        }
+
+        .gxaGradientLevel {
+            white-space: nowrap;
+            font-size: 10px;
+            vertical-align: middle;
+            display: table-cell;
+        }
+
+        .gxaGradientLevelMin {
+            text-align: right;
+        }
+
+        .gxaGradientLevelMax {
+            text-align: left;
+        }
+    </style>
+    <style type="text/css">
+        .rc-slider {
+            position: relative;
+            height: 14px;
+            padding: 5px 0;
+            width: 100%;
+            border-radius: 6px;
+            -ms-touch-action: none;
+            touch-action: none;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        .rc-slider * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        .rc-slider-rail {
+            position: absolute;
+            width: 100%;
+            background-color: #e9e9e9;
+            height: 4px;
+            border-radius: 6px;
+        }
+
+        .rc-slider-track {
+            position: absolute;
+            left: 0;
+            height: 4px;
+            border-radius: 6px;
+            background-color: #abe2fb;
+        }
+
+        .rc-slider-handle {
+            position: absolute;
+            margin-left: -7px;
+            margin-top: -5px;
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+            cursor: -webkit-grab;
+            cursor: grab;
+            border-radius: 50%;
+            border: solid 2px #96dbfa;
+            background-color: #fff;
+            -ms-touch-action: pan-x;
+            touch-action: pan-x;
+        }
+
+        .rc-slider-handle:hover {
+            border-color: #57c5f7;
+        }
+
+        .rc-slider-handle:active {
+            border-color: #57c5f7;
+            box-shadow: 0 0 5px #57c5f7;
+            cursor: -webkit-grabbing;
+            cursor: grabbing;
+        }
+
+        .rc-slider-handle:focus {
+            border-color: #57c5f7;
+            box-shadow: 0 0 0 5px #96dbfa;
+            outline: none;
+        }
+
+        .rc-slider-mark {
+            position: absolute;
+            top: 18px;
+            left: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+
+        .rc-slider-mark-text {
+            position: absolute;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            cursor: pointer;
+            color: #999;
+        }
+
+        .rc-slider-mark-text-active {
+            color: #666;
+        }
+
+        .rc-slider-step {
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            background: transparent;
+        }
+
+        .rc-slider-dot {
+            position: absolute;
+            bottom: -2px;
+            margin-left: -4px;
+            width: 8px;
+            height: 8px;
+            border: 2px solid #e9e9e9;
+            background-color: #fff;
+            cursor: pointer;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+
+        .rc-slider-dot:first-child {
+            margin-left: -4px;
+        }
+
+        .rc-slider-dot:last-child {
+            margin-left: -4px;
+        }
+
+        .rc-slider-dot-active {
+            border-color: #96dbfa;
+        }
+
+        .rc-slider-disabled {
+            background-color: #e9e9e9;
+        }
+
+        .rc-slider-disabled .rc-slider-track {
+            background-color: #ccc;
+        }
+
+        .rc-slider-disabled .rc-slider-handle,
+        .rc-slider-disabled .rc-slider-dot {
+            border-color: #ccc;
+            box-shadow: none;
+            background-color: #fff;
+            cursor: not-allowed;
+        }
+
+        .rc-slider-disabled .rc-slider-mark-text,
+        .rc-slider-disabled .rc-slider-dot {
+            cursor: not-allowed !important;
+        }
+
+        .rc-slider-vertical {
+            width: 14px;
+            height: 100%;
+            padding: 0 5px;
+        }
+
+        .rc-slider-vertical .rc-slider-rail {
+            height: 100%;
+            width: 4px;
+        }
+
+        .rc-slider-vertical .rc-slider-track {
+            left: 5px;
+            bottom: 0;
+            width: 4px;
+        }
+
+        .rc-slider-vertical .rc-slider-handle {
+            margin-left: -5px;
+            margin-bottom: -7px;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+        }
+
+        .rc-slider-vertical .rc-slider-mark {
+            top: 0;
+            left: 18px;
+            height: 100%;
+        }
+
+        .rc-slider-vertical .rc-slider-step {
+            height: 100%;
+            width: 4px;
+        }
+
+        .rc-slider-vertical .rc-slider-dot {
+            left: 2px;
+            margin-bottom: -4px;
+        }
+
+        .rc-slider-vertical .rc-slider-dot:first-child {
+            margin-bottom: -4px;
+        }
+
+        .rc-slider-vertical .rc-slider-dot:last-child {
+            margin-bottom: -4px;
+        }
+
+        .rc-slider-tooltip-zoom-down-enter,
+        .rc-slider-tooltip-zoom-down-appear {
+            -webkit-animation-duration: .3s;
+            animation-duration: .3s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            display: block !important;
+            -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+        }
+
+        .rc-slider-tooltip-zoom-down-leave {
+            -webkit-animation-duration: .3s;
+            animation-duration: .3s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            display: block !important;
+            -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+        }
+
+        .rc-slider-tooltip-zoom-down-enter.rc-slider-tooltip-zoom-down-enter-active,
+        .rc-slider-tooltip-zoom-down-appear.rc-slider-tooltip-zoom-down-appear-active {
+            -webkit-animation-name: rcSliderTooltipZoomDownIn;
+            animation-name: rcSliderTooltipZoomDownIn;
+            -webkit-animation-play-state: running;
+            animation-play-state: running;
+        }
+
+        .rc-slider-tooltip-zoom-down-leave.rc-slider-tooltip-zoom-down-leave-active {
+            -webkit-animation-name: rcSliderTooltipZoomDownOut;
+            animation-name: rcSliderTooltipZoomDownOut;
+            -webkit-animation-play-state: running;
+            animation-play-state: running;
+        }
+
+        .rc-slider-tooltip-zoom-down-enter,
+        .rc-slider-tooltip-zoom-down-appear {
+            -webkit-transform: scale(0, 0);
             transform: scale(0, 0);
-  }
-  100% {
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-}
-@keyframes rcSliderTooltipZoomDownIn {
-  0% {
-    opacity: 0;
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-transform: scale(0, 0);
-            transform: scale(0, 0);
-  }
-  100% {
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-}
-@-webkit-keyframes rcSliderTooltipZoomDownOut {
-  0% {
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-transform: scale(0, 0);
-            transform: scale(0, 0);
-  }
-}
-@keyframes rcSliderTooltipZoomDownOut {
-  0% {
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-transform: scale(0, 0);
-            transform: scale(0, 0);
-  }
-}
-.rc-slider-tooltip {
-  position: absolute;
-  left: -9999px;
-  top: -9999px;
-  visibility: visible;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.rc-slider-tooltip * {
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.rc-slider-tooltip-hidden {
-  display: none;
-}
-.rc-slider-tooltip-placement-top {
-  padding: 4px 0 8px 0;
-}
-.rc-slider-tooltip-inner {
-  padding: 6px 2px;
-  min-width: 24px;
-  height: 24px;
-  font-size: 12px;
-  line-height: 1;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  background-color: #6c6c6c;
-  border-radius: 6px;
-  box-shadow: 0 0 4px #d9d9d9;
-}
-.rc-slider-tooltip-arrow {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-.rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow {
-  bottom: 4px;
-  left: 50%;
-  margin-left: -4px;
-  border-width: 4px 4px 0;
-  border-top-color: #6c6c6c;
-}
-</style><style type="text/css">.gxaDisplayCoexpressionOffer {
-  margin-top: 30px;
-}
-.gxaDisplayCoexpressionOffer .gxaSlider {
-  width: 250px;
-  margin: 15px;
-  padding-bottom: 20px;
-}
-.gxaDisplayCoexpressionOffer p {
-  font-size: 93%;
-}
-</style><style type="text/css">.gxa-anatomogram-switcher {
-  display: inline-block;
-  vertical-align: top;
-  width: 10%;
-  max-width: 44px;
-  line-height: 0;
-}
+            -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+            animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+        }
 
-.gxa-anatomogram-switcher-icon {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 100%;
-  height: auto;
-  padding: 2px;
-}
-.gxa-anatomogram-switcher-icon:hover {
-  border: 1px solid orange;
-  background: lightgoldenrodyellow;
-  cursor: pointer;
-}
-</style><style type="text/css">.gxa-anatomogram-svg-wrapper {
-  display: inline-block;
-  vertical-align: top;
-  width: 90%;
-}
+        .rc-slider-tooltip-zoom-down-leave {
+            -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        }
 
-.gxa-anatomogram-svg {
-  width: 100%;
-  height: auto;
-}
-</style><style type="text/css">.ReactTable{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;border:1px solid rgba(0,0,0,0.1);}.ReactTable *{box-sizing:border-box}.ReactTable .rt-table{-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;width:100%;border-collapse:collapse;overflow:auto}.ReactTable .rt-thead{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.ReactTable .rt-thead.-headerGroups{background:rgba(0,0,0,0.03);border-bottom:1px solid rgba(0,0,0,0.05)}.ReactTable .rt-thead.-filters{border-bottom:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-thead.-filters .rt-th{border-right:1px solid rgba(0,0,0,0.02)}.ReactTable .rt-thead.-header{box-shadow:0 2px 15px 0 rgba(0,0,0,0.15)}.ReactTable .rt-thead .rt-tr{text-align:center}.ReactTable .rt-thead .rt-th,.ReactTable .rt-thead .rt-td{padding:5px 5px;line-height:normal;position:relative;border-right:1px solid rgba(0,0,0,0.05);-webkit-transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);transition:box-shadow .3s cubic-bezier(.175,.885,.32,1.275);box-shadow:inset 0 0 0 0 transparent;}.ReactTable .rt-thead .rt-th.-sort-asc,.ReactTable .rt-thead .rt-td.-sort-asc{box-shadow:inset 0 3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-sort-desc,.ReactTable .rt-thead .rt-td.-sort-desc{box-shadow:inset 0 -3px 0 0 rgba(0,0,0,0.6)}.ReactTable .rt-thead .rt-th.-cursor-pointer,.ReactTable .rt-thead .rt-td.-cursor-pointer{cursor:pointer}.ReactTable .rt-thead .rt-th:last-child,.ReactTable .rt-thead .rt-td:last-child{border-right:0}.ReactTable .rt-thead .rt-resizable-header{overflow:visible;}.ReactTable .rt-thead .rt-resizable-header:last-child{overflow:hidden}.ReactTable .rt-thead .rt-resizable-header-content{overflow:hidden;text-overflow:ellipsis}.ReactTable .rt-thead .rt-header-pivot{border-right-color:#f7f7f7}.ReactTable .rt-thead .rt-header-pivot:after,.ReactTable .rt-thead .rt-header-pivot:before{left:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}.ReactTable .rt-thead .rt-header-pivot:after{border-color:rgba(255,255,255,0);border-left-color:#fff;border-width:8px;margin-top:-8px}.ReactTable .rt-thead .rt-header-pivot:before{border-color:rgba(102,102,102,0);border-left-color:#f7f7f7;border-width:10px;margin-top:-10px}.ReactTable .rt-tbody{-webkit-box-flex:99999;-ms-flex:99999 1 auto;flex:99999 1 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;overflow:auto;}.ReactTable .rt-tbody .rt-tr-group{border-bottom:solid 1px rgba(0,0,0,0.05);}.ReactTable .rt-tbody .rt-tr-group:last-child{border-bottom:0}.ReactTable .rt-tbody .rt-td{border-right:1px solid rgba(0,0,0,0.02);}.ReactTable .rt-tbody .rt-td:last-child{border-right:0}.ReactTable .rt-tbody .rt-expandable{cursor:pointer}.ReactTable .rt-tr-group{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.ReactTable .rt-tr{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.ReactTable .rt-th,.ReactTable .rt-td{-webkit-box-flex:1;-ms-flex:1 0 0px;flex:1 0 0;white-space:nowrap;text-overflow:ellipsis;padding:7px 5px;overflow:hidden;-webkit-transition:.3s ease;transition:.3s ease;-webkit-transition-property:width,min-width,padding,opacity;transition-property:width,min-width,padding,opacity;}.ReactTable .rt-th.-hidden,.ReactTable .rt-td.-hidden{width:0 !important;min-width:0 !important;padding:0 !important;border:0 !important;opacity:0 !important}.ReactTable .rt-expander{display:inline-block;position:relative;margin:0;color:transparent;margin:0 10px;}.ReactTable .rt-expander:after{content:'';position:absolute;width:0;height:0;top:50%;left:50%;-webkit-transform:translate(-50%,-50%) rotate(-90deg);transform:translate(-50%,-50%) rotate(-90deg);border-left:5.04px solid transparent;border-right:5.04px solid transparent;border-top:7px solid rgba(0,0,0,0.8);-webkit-transition:all .3s cubic-bezier(.175,.885,.32,1.275);transition:all .3s cubic-bezier(.175,.885,.32,1.275);cursor:pointer}.ReactTable .rt-expander.-open:after{-webkit-transform:translate(-50%,-50%) rotate(0);transform:translate(-50%,-50%) rotate(0)}.ReactTable .rt-resizer{display:inline-block;position:absolute;width:36px;top:0;bottom:0;right:-18px;cursor:col-resize;z-index:10}.ReactTable .rt-tfoot{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;box-shadow:0 0 15px 0 rgba(0,0,0,0.15);}.ReactTable .rt-tfoot .rt-td{border-right:1px solid rgba(0,0,0,0.05);}.ReactTable .rt-tfoot .rt-td:last-child{border-right:0}.ReactTable.-striped .rt-tr.-odd{background:rgba(0,0,0,0.03)}.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover{background:rgba(0,0,0,0.05)}.ReactTable .-pagination{z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:3px;box-shadow:0 0 15px 0 rgba(0,0,0,0.1);border-top:2px solid rgba(0,0,0,0.1);}.ReactTable .-pagination .-btn{-webkit-appearance:none;-moz-appearance:none;appearance:none;display:block;width:100%;height:100%;border:0;border-radius:3px;padding:6px;font-size:1em;color:rgba(0,0,0,0.6);background:rgba(0,0,0,0.1);-webkit-transition:all .1s ease;transition:all .1s ease;cursor:pointer;outline:none;}.ReactTable .-pagination .-btn[disabled]{opacity:.5;cursor:default}.ReactTable .-pagination .-btn:not([disabled]):hover{background:rgba(0,0,0,0.3);color:#fff}.ReactTable .-pagination .-previous,.ReactTable .-pagination .-next{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:center}.ReactTable .-pagination .-center{-webkit-box-flex:1.5;-ms-flex:1.5;flex:1.5;text-align:center;margin-bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}.ReactTable .-pagination .-pageInfo{display:inline-block;margin:3px 10px;white-space:nowrap}.ReactTable .-pagination .-pageJump{display:inline-block;}.ReactTable .-pagination .-pageJump input{width:70px;text-align:center}.ReactTable .-pagination .-pageSizeOptions{margin:3px 10px}.ReactTable .rt-noData{display:block;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background:rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease;z-index:1;pointer-events:none;padding:20px;color:rgba(0,0,0,0.5)}.ReactTable .-loading{display:block;position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease;z-index:-1;opacity:0;pointer-events:none;}.ReactTable .-loading > div{position:absolute;display:block;text-align:center;width:100%;top:50%;left:0;font-size:15px;color:rgba(0,0,0,0.6);-webkit-transform:translateY(-52%);transform:translateY(-52%);-webkit-transition:all .3s cubic-bezier(.25,.46,.45,.94);transition:all .3s cubic-bezier(.25,.46,.45,.94)}.ReactTable .-loading.-active{opacity:1;z-index:2;pointer-events:all;}.ReactTable .-loading.-active > div{-webkit-transform:translateY(50%);transform:translateY(50%)}.ReactTable input,.ReactTable select{border:1px solid rgba(0,0,0,0.1);background:#fff;padding:5px 7px;font-size:inherit;border-radius:3px;font-weight:normal;outline:none}.ReactTable .rt-resizing .rt-th,.ReactTable .rt-resizing .rt-td{-webkit-transition:none !important;transition:none !important;cursor:col-resize;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}</style><style type="text/css">.rt-td:hover {
-  overflow: visible;
-  white-space: normal;
-  width: auto;
-}
+        @-webkit-keyframes rcSliderTooltipZoomDownIn {
+            0% {
+                opacity: 0;
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transform: scale(0, 0);
+                transform: scale(0, 0);
+            }
+            100% {
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+        }
 
-.select-wrap select {
-  height: unset;
-  margin: unset;
-}
+        @keyframes rcSliderTooltipZoomDownIn {
+            0% {
+                opacity: 0;
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transform: scale(0, 0);
+                transform: scale(0, 0);
+            }
+            100% {
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+        }
 
-.-pageJump input {
-  display: inline-block;
-  height: unset;
-  margin: unset;
-}
+        @-webkit-keyframes rcSliderTooltipZoomDownOut {
+            0% {
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+            100% {
+                opacity: 0;
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transform: scale(0, 0);
+                transform: scale(0, 0);
+            }
+        }
 
-.-pagination button.-btn  {
-  height: 2.25rem !important;
-}
-</style><meta class="foundation-mq"></head>
+        @keyframes rcSliderTooltipZoomDownOut {
+            0% {
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+            100% {
+                opacity: 0;
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                -webkit-transform: scale(0, 0);
+                transform: scale(0, 0);
+            }
+        }
+
+        .rc-slider-tooltip {
+            position: absolute;
+            left: -9999px;
+            top: -9999px;
+            visibility: visible;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        .rc-slider-tooltip * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        .rc-slider-tooltip-hidden {
+            display: none;
+        }
+
+        .rc-slider-tooltip-placement-top {
+            padding: 4px 0 8px 0;
+        }
+
+        .rc-slider-tooltip-inner {
+            padding: 6px 2px;
+            min-width: 24px;
+            height: 24px;
+            font-size: 12px;
+            line-height: 1;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            background-color: #6c6c6c;
+            border-radius: 6px;
+            box-shadow: 0 0 4px #d9d9d9;
+        }
+
+        .rc-slider-tooltip-arrow {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+        }
+
+        .rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow {
+            bottom: 4px;
+            left: 50%;
+            margin-left: -4px;
+            border-width: 4px 4px 0;
+            border-top-color: #6c6c6c;
+        }
+    </style>
+    <style type="text/css">
+        .gxaDisplayCoexpressionOffer {
+            margin-top: 30px;
+        }
+
+        .gxaDisplayCoexpressionOffer .gxaSlider {
+            width: 250px;
+            margin: 15px;
+            padding-bottom: 20px;
+        }
+
+        .gxaDisplayCoexpressionOffer p {
+            font-size: 93%;
+        }
+    </style>
+    <style type="text/css">
+        .gxa-anatomogram-switcher {
+            display: inline-block;
+            vertical-align: top;
+            width: 10%;
+            max-width: 44px;
+            line-height: 0;
+        }
+
+        .gxa-anatomogram-switcher-icon {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+            height: auto;
+            padding: 2px;
+        }
+
+        .gxa-anatomogram-switcher-icon:hover {
+            border: 1px solid orange;
+            background: lightgoldenrodyellow;
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        .gxa-anatomogram-svg-wrapper {
+            display: inline-block;
+            vertical-align: top;
+            width: 90%;
+        }
+
+        .gxa-anatomogram-svg {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <style type="text/css">
+        .ReactTable {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .ReactTable * {
+            box-sizing: border-box
+        }
+
+        .ReactTable .rt-table {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 100%;
+            border-collapse: collapse;
+            overflow: auto
+        }
+
+        .ReactTable .rt-thead {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .ReactTable .rt-thead.-headerGroups {
+            background: rgba(0, 0, 0, 0.03);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+        }
+
+        .ReactTable .rt-thead.-filters {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .ReactTable .rt-thead.-filters .rt-th {
+            border-right: 1px solid rgba(0, 0, 0, 0.02)
+        }
+
+        .ReactTable .rt-thead.-header {
+            box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15)
+        }
+
+        .ReactTable .rt-thead .rt-tr {
+            text-align: center
+        }
+
+        .ReactTable .rt-thead .rt-th,
+        .ReactTable .rt-thead .rt-td {
+            padding: 5px 5px;
+            line-height: normal;
+            position: relative;
+            border-right: 1px solid rgba(0, 0, 0, 0.05);
+            -webkit-transition: box-shadow .3s cubic-bezier(.175, .885, .32, 1.275);
+            transition: box-shadow .3s cubic-bezier(.175, .885, .32, 1.275);
+            box-shadow: inset 0 0 0 0 transparent;
+        }
+
+        .ReactTable .rt-thead .rt-th.-sort-asc,
+        .ReactTable .rt-thead .rt-td.-sort-asc {
+            box-shadow: inset 0 3px 0 0 rgba(0, 0, 0, 0.6)
+        }
+
+        .ReactTable .rt-thead .rt-th.-sort-desc,
+        .ReactTable .rt-thead .rt-td.-sort-desc {
+            box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.6)
+        }
+
+        .ReactTable .rt-thead .rt-th.-cursor-pointer,
+        .ReactTable .rt-thead .rt-td.-cursor-pointer {
+            cursor: pointer
+        }
+
+        .ReactTable .rt-thead .rt-th:last-child,
+        .ReactTable .rt-thead .rt-td:last-child {
+            border-right: 0
+        }
+
+        .ReactTable .rt-thead .rt-resizable-header {
+            overflow: visible;
+        }
+
+        .ReactTable .rt-thead .rt-resizable-header:last-child {
+            overflow: hidden
+        }
+
+        .ReactTable .rt-thead .rt-resizable-header-content {
+            overflow: hidden;
+            text-overflow: ellipsis
+        }
+
+        .ReactTable .rt-thead .rt-header-pivot {
+            border-right-color: #f7f7f7
+        }
+
+        .ReactTable .rt-thead .rt-header-pivot:after,
+        .ReactTable .rt-thead .rt-header-pivot:before {
+            left: 100%;
+            top: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none
+        }
+
+        .ReactTable .rt-thead .rt-header-pivot:after {
+            border-color: rgba(255, 255, 255, 0);
+            border-left-color: #fff;
+            border-width: 8px;
+            margin-top: -8px
+        }
+
+        .ReactTable .rt-thead .rt-header-pivot:before {
+            border-color: rgba(102, 102, 102, 0);
+            border-left-color: #f7f7f7;
+            border-width: 10px;
+            margin-top: -10px
+        }
+
+        .ReactTable .rt-tbody {
+            -webkit-box-flex: 99999;
+            -ms-flex: 99999 1 auto;
+            flex: 99999 1 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            overflow: auto;
+        }
+
+        .ReactTable .rt-tbody .rt-tr-group {
+            border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+        }
+
+        .ReactTable .rt-tbody .rt-tr-group:last-child {
+            border-bottom: 0
+        }
+
+        .ReactTable .rt-tbody .rt-td {
+            border-right: 1px solid rgba(0, 0, 0, 0.02);
+        }
+
+        .ReactTable .rt-tbody .rt-td:last-child {
+            border-right: 0
+        }
+
+        .ReactTable .rt-tbody .rt-expandable {
+            cursor: pointer
+        }
+
+        .ReactTable .rt-tr-group {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch
+        }
+
+        .ReactTable .rt-tr {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex
+        }
+
+        .ReactTable .rt-th,
+        .ReactTable .rt-td {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            padding: 7px 5px;
+            overflow: hidden;
+            -webkit-transition: .3s ease;
+            transition: .3s ease;
+            -webkit-transition-property: width, min-width, padding, opacity;
+            transition-property: width, min-width, padding, opacity;
+        }
+
+        .ReactTable .rt-th.-hidden,
+        .ReactTable .rt-td.-hidden {
+            width: 0 !important;
+            min-width: 0 !important;
+            padding: 0 !important;
+            border: 0 !important;
+            opacity: 0 !important
+        }
+
+        .ReactTable .rt-expander {
+            display: inline-block;
+            position: relative;
+            margin: 0;
+            color: transparent;
+            margin: 0 10px;
+        }
+
+        .ReactTable .rt-expander:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+            transform: translate(-50%, -50%) rotate(-90deg);
+            border-left: 5.04px solid transparent;
+            border-right: 5.04px solid transparent;
+            border-top: 7px solid rgba(0, 0, 0, 0.8);
+            -webkit-transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+            transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+            cursor: pointer
+        }
+
+        .ReactTable .rt-expander.-open:after {
+            -webkit-transform: translate(-50%, -50%) rotate(0);
+            transform: translate(-50%, -50%) rotate(0)
+        }
+
+        .ReactTable .rt-resizer {
+            display: inline-block;
+            position: absolute;
+            width: 36px;
+            top: 0;
+            bottom: 0;
+            right: -18px;
+            cursor: col-resize;
+            z-index: 10
+        }
+
+        .ReactTable .rt-tfoot {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+        }
+
+        .ReactTable .rt-tfoot .rt-td {
+            border-right: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .ReactTable .rt-tfoot .rt-td:last-child {
+            border-right: 0
+        }
+
+        .ReactTable.-striped .rt-tr.-odd {
+            background: rgba(0, 0, 0, 0.03)
+        }
+
+        .ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+            background: rgba(0, 0, 0, 0.05)
+        }
+
+        .ReactTable .-pagination {
+            z-index: 1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding: 3px;
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .ReactTable .-pagination .-btn {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 3px;
+            padding: 6px;
+            font-size: 1em;
+            color: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.1);
+            -webkit-transition: all .1s ease;
+            transition: all .1s ease;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .ReactTable .-pagination .-btn[disabled] {
+            opacity: .5;
+            cursor: default
+        }
+
+        .ReactTable .-pagination .-btn:not([disabled]):hover {
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff
+        }
+
+        .ReactTable .-pagination .-previous,
+        .ReactTable .-pagination .-next {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            text-align: center
+        }
+
+        .ReactTable .-pagination .-center {
+            -webkit-box-flex: 1.5;
+            -ms-flex: 1.5;
+            flex: 1.5;
+            text-align: center;
+            margin-bottom: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: distribute;
+            justify-content: space-around
+        }
+
+        .ReactTable .-pagination .-pageInfo {
+            display: inline-block;
+            margin: 3px 10px;
+            white-space: nowrap
+        }
+
+        .ReactTable .-pagination .-pageJump {
+            display: inline-block;
+        }
+
+        .ReactTable .-pagination .-pageJump input {
+            width: 70px;
+            text-align: center
+        }
+
+        .ReactTable .-pagination .-pageSizeOptions {
+            margin: 3px 10px
+        }
+
+        .ReactTable .rt-noData {
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.8);
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+            z-index: 1;
+            pointer-events: none;
+            padding: 20px;
+            color: rgba(0, 0, 0, 0.5)
+        }
+
+        .ReactTable .-loading {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.8);
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+            z-index: -1;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .ReactTable .-loading>div {
+            position: absolute;
+            display: block;
+            text-align: center;
+            width: 100%;
+            top: 50%;
+            left: 0;
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.6);
+            -webkit-transform: translateY(-52%);
+            transform: translateY(-52%);
+            -webkit-transition: all .3s cubic-bezier(.25, .46, .45, .94);
+            transition: all .3s cubic-bezier(.25, .46, .45, .94)
+        }
+
+        .ReactTable .-loading.-active {
+            opacity: 1;
+            z-index: 2;
+            pointer-events: all;
+        }
+
+        .ReactTable .-loading.-active>div {
+            -webkit-transform: translateY(50%);
+            transform: translateY(50%)
+        }
+
+        .ReactTable input,
+        .ReactTable select {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background: #fff;
+            padding: 5px 7px;
+            font-size: inherit;
+            border-radius: 3px;
+            font-weight: normal;
+            outline: none
+        }
+
+        .ReactTable .rt-resizing .rt-th,
+        .ReactTable .rt-resizing .rt-td {
+            -webkit-transition: none !important;
+            transition: none !important;
+            cursor: col-resize;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+    </style>
+    <style type="text/css">
+        .rt-td:hover {
+            overflow: visible;
+            white-space: normal;
+            width: auto;
+        }
+
+        .select-wrap select {
+            height: unset;
+            margin: unset;
+        }
+
+        .-pageJump input {
+            display: inline-block;
+            height: unset;
+            margin: unset;
+        }
+
+        .-pagination button.-btn {
+            height: 2.25rem !important;
+        }
+    </style>
+    <meta class="foundation-mq">
+</head>
 
 <body class="level2 no-global-search google-analytics-loaded" style="">
-<div id="skip-to">
-    <ul>
-        <li><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#content">Skip to main content</a></li>
-        <li><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#local-nav">Skip to local navigation</a></li>
-        <li><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#global-nav">Skip to EBI global navigation menu</a></li>
-        <li><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a></li>
-    </ul>
-</div>
-
-
-
-<header id="masthead-black-bar" class="clearfix masthead-black-bar">
-    <nav class="row expanded">
-        <ul id="global-nav" class="menu">
-            <!-- set active class as appropriate -->
-            <li class="home-mobile"><a href="http://www.ebi.ac.uk/"></a></li>
-            <li class="home active"><a href="http://www.ebi.ac.uk/">EMBL-EBI</a></li>
-            <li class="services"><a href="http://www.ebi.ac.uk/services">Services</a></li>
-            <li class="research"><a href="http://www.ebi.ac.uk/research">Research</a></li>
-            <li class="training"><a href="http://www.ebi.ac.uk/training">Training</a></li>
-            <li class="about"><a href="http://www.ebi.ac.uk/about">About us</a></li>
-            <li class="search">
-                <a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" data-toggle="search-global-dropdown" aria-controls="search-global-dropdown" data-is-focus="false" data-yeti-box="search-global-dropdown" aria-haspopup="true" aria-expanded="false"><span class="show-for-small-only">Search</span></a>
-                <div id="search-global-dropdown" class="dropdown-pane" data-dropdown="896fa6-dropdown" data-options="closeOnClick:true;" aria-hidden="true" data-yeti-box="search-global-dropdown" data-resize="search-global-dropdown" aria-labelledby="71nrqj-dd-anchor" data-events="resize">
-                    <!-- The dropdown menu will be programatically added by script.js -->
-                </div>
-            </li>
-            <li class="float-right show-for-medium embl-selector">
-                <button class="button float-right" type="button" data-toggle="embl-dropdown" aria-controls="embl-dropdown" data-is-focus="false" data-yeti-box="embl-dropdown" aria-haspopup="true" aria-expanded="false">Hinxton</button>
-                <!-- The dropdown menu will be programatically added by script.js -->
-            </li>
+    <div id="skip-to">
+        <ul>
+            <li><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#content">Skip to main content</a></li>
+            <li><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#local-nav">Skip to local navigation</a></li>
+            <li><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#global-nav">Skip to EBI global navigation menu</a></li>
+            <li><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a></li>
         </ul>
-    </nav>
-<div><div id="embl-dropdown" class="embl-dropdown dropdown-pane bottom" data-dropdown="zq45my-dropdown" aria-hidden="true" data-yeti-box="embl-dropdown" data-resize="embl-dropdown" aria-labelledby="icr5l5-dd-anchor"><p>EMBL-EBI in Hinxton, Cambridge is one of <br>six EMBL locations across europe.<br> <a href="http://www.ebi.ac.uk/about" class="small readmore">More about EMBL-EBI</a></p><h6>Connect to another EMBL location</h6><div class="small-collapse padding-bottom-large clearfix"><div class="columns small-5 padding-bottom-medium"><a href="http://www.embl.de/">Heidelberg</a><div class="small">Main laboratory</div></div><div class="columns small-7 padding-bottom-medium"><a href="http://www.embl-barcelona.es/">Barcelona</a><div class="small">Tissue biology and disease modelling</div></div><div class="columns small-5 padding-bottom-medium"><a href="http://www.embl.fr/">Grenoble</a><div class="small">Structural biology</div></div><div class="columns small-7 padding-bottom-medium"><a href="http://www.embl-hamburg.de/">Hamburg</a><div class="small">Structural biology</div></div><div class="columns small-5 padding-bottom-medium"><a href="http://www.embl.it/">Rome</a><div class="small">Epigenetics and neurobiology</div></div><div class="columns small-7 padding-bottom-medium"><a href="http://embl.org/" class="readmore">More about EMBL</a></div></div></div></div></header>
+    </div>
 
 
-<div id="content">
 
-
-<div data-sticky-container="" class="sticky-container" style="height: 212.375px;">
-    <header id="masthead" class="masthead sticky is-anchored is-at-top" data-sticky="0sdma6-sticky" data-sticky-on="large" data-top-anchor="main-content-area:top" data-btm-anchor="main-content-area:bottom" data-resize="masthead" style="max-width: 1781px; margin-top: 0px; bottom: auto; top: 0px;" data-events="resize">
-        <div class="masthead-inner row expanded">
-            <div class="small-8 columns media-object">
-                <div class="show-for-medium media-object-section middle">
-                    <a href="http://www-test.ebi.ac.uk/gxa/home/" title="Back to Expression Atlas homepage" class="clear">
-                        <img src="./E-MTAB-4484_files/logo_atlas_transparent.png" alt="Expression Atlas logo">
-                    </a>
-                </div>
-                <div class="media-object-section middle">
-                    <h1><a href="http://www-test.ebi.ac.uk/gxa/home/" title="Back to Expression Atlas homepage" class="clear">Expression Atlas</a></h1>
-                    <h4 class="show-for-large"><a href="http://www-test.ebi.ac.uk/gxa/home/" title="Back to Expression Atlas homepage" class="clear">Gene expression across species and biological conditions</a></h4>
+    <header id="masthead-black-bar" class="clearfix masthead-black-bar">
+        <nav class="row expanded">
+            <ul id="global-nav" class="menu">
+                <!-- set active class as appropriate -->
+                <li class="home-mobile"><a href="http://www.ebi.ac.uk/"></a></li>
+                <li class="home active"><a href="http://www.ebi.ac.uk/">EMBL-EBI</a></li>
+                <li class="services"><a href="http://www.ebi.ac.uk/services">Services</a></li>
+                <li class="research"><a href="http://www.ebi.ac.uk/research">Research</a></li>
+                <li class="training"><a href="http://www.ebi.ac.uk/training">Training</a></li>
+                <li class="about"><a href="http://www.ebi.ac.uk/about">About us</a></li>
+                <li class="search">
+                    <a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" data-toggle="search-global-dropdown" aria-controls="search-global-dropdown" data-is-focus="false" data-yeti-box="search-global-dropdown" aria-haspopup="true" aria-expanded="false"><span class="show-for-small-only">Search</span></a>
+                    <div id="search-global-dropdown" class="dropdown-pane" data-dropdown="896fa6-dropdown" data-options="closeOnClick:true;" aria-hidden="true" data-yeti-box="search-global-dropdown" data-resize="search-global-dropdown" aria-labelledby="71nrqj-dd-anchor" data-events="resize">
+                        <!-- The dropdown menu will be programatically added by script.js -->
+                    </div>
+                </li>
+                <li class="float-right show-for-medium embl-selector">
+                    <button class="button float-right" type="button" data-toggle="embl-dropdown" aria-controls="embl-dropdown" data-is-focus="false" data-yeti-box="embl-dropdown" aria-haspopup="true" aria-expanded="false">Hinxton</button>
+                    <!-- The dropdown menu will be programatically added by script.js -->
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <div id="embl-dropdown" class="embl-dropdown dropdown-pane bottom" data-dropdown="zq45my-dropdown" aria-hidden="true" data-yeti-box="embl-dropdown" data-resize="embl-dropdown" aria-labelledby="icr5l5-dd-anchor">
+                <p>EMBL-EBI in Hinxton, Cambridge is one of <br>six EMBL locations across europe.<br> <a href="http://www.ebi.ac.uk/about" class="small readmore">More about EMBL-EBI</a></p>
+                <h6>Connect to another EMBL location</h6>
+                <div class="small-collapse padding-bottom-large clearfix">
+                    <div class="columns small-5 padding-bottom-medium"><a href="http://www.embl.de/">Heidelberg</a>
+                        <div class="small">Main laboratory</div>
+                    </div>
+                    <div class="columns small-7 padding-bottom-medium"><a href="http://www.embl-barcelona.es/">Barcelona</a>
+                        <div class="small">Tissue biology and disease modelling</div>
+                    </div>
+                    <div class="columns small-5 padding-bottom-medium"><a href="http://www.embl.fr/">Grenoble</a>
+                        <div class="small">Structural biology</div>
+                    </div>
+                    <div class="columns small-7 padding-bottom-medium"><a href="http://www.embl-hamburg.de/">Hamburg</a>
+                        <div class="small">Structural biology</div>
+                    </div>
+                    <div class="columns small-5 padding-bottom-medium"><a href="http://www.embl.it/">Rome</a>
+                        <div class="small">Epigenetics and neurobiology</div>
+                    </div>
+                    <div class="columns small-7 padding-bottom-medium"><a href="http://embl.org/" class="readmore">More about EMBL</a></div>
                 </div>
             </div>
+        </div>
+    </header>
 
-            <div class="hide-for-small-only small-4 columns">
-                <!-- EBI Framework standard search -->
-                <form id="local-search" name="local-search" method="get" action="http://www-test.ebi.ac.uk/gxa/search">
-                    <h4>Search this project</h4>
-                    <fieldset>
-                        <div class="input-group" style="margin-bottom: 0">
-                            <input type="text" name="geneQuery" id="local-searchbox" class="json-tag-editor-hidden-src"><ul class="json-tag-editor"><li style="width:1px">&nbsp;</li><li class="placeholder"><div>Enter gene query…</div></li></ul>
-                            <div class="input-group-button">
-                                <input id="submit-searchbox" type="submit" value="1" class="button icon icon-functional">
-                            </div>
+
+    <div id="content">
+
+
+        <div data-sticky-container="" class="sticky-container" style="height: 212.375px;">
+            <header id="masthead" class="masthead sticky is-anchored is-at-top" data-sticky="0sdma6-sticky" data-sticky-on="large" data-top-anchor="main-content-area:top" data-btm-anchor="main-content-area:bottom" data-resize="masthead" style="max-width: 1781px; margin-top: 0px; bottom: auto; top: 0px;" data-events="resize">
+                <div class="masthead-inner row expanded">
+                    <div class="small-8 columns media-object">
+                        <div class="show-for-medium media-object-section middle">
+                            <a href="http://www-test.ebi.ac.uk/gxa/home/" title="Back to Expression Atlas homepage" class="clear">
+                        <img src="./E-MTAB-4484_files/logo_atlas_transparent.png" alt="Expression Atlas logo">
+                    </a>
                         </div>
-                        <small class="show-for-large">
+                        <div class="media-object-section middle">
+                            <h1><a href="http://www-test.ebi.ac.uk/gxa/home/" title="Back to Expression Atlas homepage" class="clear">Expression Atlas</a></h1>
+                            <h4 class="show-for-large"><a href="http://www-test.ebi.ac.uk/gxa/home/" title="Back to Expression Atlas homepage" class="clear">Gene expression across species and biological conditions</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="hide-for-small-only small-4 columns">
+                        <!-- EBI Framework standard search -->
+                        <form id="local-search" name="local-search" method="get" action="http://www-test.ebi.ac.uk/gxa/search">
+                            <h4>Search this project</h4>
+                            <fieldset>
+                                <div class="input-group" style="margin-bottom: 0">
+                                    <input type="text" name="geneQuery" id="local-searchbox" class="json-tag-editor-hidden-src">
+                                    <ul class="json-tag-editor">
+                                        <li style="width:1px">&nbsp;</li>
+                                        <li class="placeholder">
+                                            <div>Enter gene query…</div>
+                                        </li>
+                                    </ul>
+                                    <div class="input-group-button">
+                                        <input id="submit-searchbox" type="submit" value="1" class="button icon icon-functional">
+                                    </div>
+                                </div>
+                                <small class="show-for-large">
                             <!-- Include some example searchterms - keep them short and few. -->
                             <span>Examples: <a href="http://www-test.ebi.ac.uk/gxa/search?geneQuery=%5B%7B%22value%22%3A%22ASPM%22%7D%5D">ASPM</a>,
                             <a href="http://www-test.ebi.ac.uk/gxa/search?geneQuery=%5B%7B%22value%22%3A%22apoptosis%22%7D%5D">Apoptosis</a>,
@@ -696,85 +1406,190 @@
                             <a href="http://www-test.ebi.ac.uk/gxa/search?geneQuery=%5B%7B%22value%22%3A%22zinc%20finger%22%7D%5D">zinc finger</a></span>
                         </small>
 
-                    </fieldset>
-                </form>
-            </div>
+                            </fieldset>
+                        </form>
+                    </div>
 
-            <nav>
-                <ul id="local-nav" class="dropdown menu float-left" data-description="navigational" role="menubar" data-dropdown-menu="6rvukh-dropdown-menu">
-                    <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/home">Home</a></li>
-                    <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/download.html">Download</a></li>
-                    <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/release-notes.html">Release notes</a></li>
-                    <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/FAQ.html">FAQ</a></li>
-                    <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/help/index.html">Help</a></li>
-                    <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/licence.html">Licence</a></li>
-                    <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/about.html">About</a></li>
-                    <li role="menuitem"><a href="https://www.ebi.ac.uk/support/gxa" target="_blank">Feedback</a></li>
-                <li class="extra-items-menu is-dropdown-submenu-parent opens-right" style="display: none;" role="menuitem" aria-haspopup="true" aria-label="Also in this section"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#">Also in this section</a><ul class="menu submenu is-dropdown-submenu first-sub vertical" data-submenu="" role="menu"><li class="bug-fix-placeholder is-dropdown-submenu-parent is-submenu-item is-dropdown-submenu-item opens-right" style="display:none !important;" role="menuitem" aria-haspopup="true" aria-label="A workaround"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#">A workaround</a> <ul class="menu submenu is-dropdown-submenu vertical" data-submenu="" role="menu"> <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#">for a bug where the dropdown menu fails sometimes unless there are two submenus in the submenu</a></li></ul>  </li></ul></li></ul>
-            </nav>
-        </div>
-    </header>
-</div>
-
-    <section id="main-content-area" class="margin-top-large margin-bottom-large" role="main">
-
-
-<link rel="stylesheet" href="./E-MTAB-4484_files/experiment.css">
-<link rel="stylesheet" href="./E-MTAB-4484_files/alt-customized-bootstrap-3.3.5.css">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="experimentDescription" class="row expanded">
-    <div class="small-12 columns">
-        <h3 id="goto-experiment">
-            Transcription profiling by high throughput sequencing of five different organs of wheat (leaf, shoot, root, spike, and grain) at three developmental stages each
-        </h3>
-        <h5>RNA-Seq mRNA baseline</h5>
-
-
-
-        <div id="experimentOrganisms">Organism:
-            <span style="font-style:italic">Triticum aestivum</span>
+                    <nav>
+                        <ul id="local-nav" class="dropdown menu float-left" data-description="navigational" role="menubar" data-dropdown-menu="6rvukh-dropdown-menu">
+                            <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/home">Home</a></li>
+                            <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/download.html">Download</a></li>
+                            <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/release-notes.html">Release notes</a></li>
+                            <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/FAQ.html">FAQ</a></li>
+                            <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/help/index.html">Help</a></li>
+                            <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/licence.html">Licence</a></li>
+                            <li role="menuitem"><a href="http://www-test.ebi.ac.uk/gxa/about.html">About</a></li>
+                            <li role="menuitem"><a href="https://www.ebi.ac.uk/support/gxa" target="_blank">Feedback</a></li>
+                            <li class="extra-items-menu is-dropdown-submenu-parent opens-right" style="display: none;" role="menuitem" aria-haspopup="true" aria-label="Also in this section"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#">Also in this section</a>
+                                <ul class="menu submenu is-dropdown-submenu first-sub vertical" data-submenu="" role="menu">
+                                    <li class="bug-fix-placeholder is-dropdown-submenu-parent is-submenu-item is-dropdown-submenu-item opens-right" style="display:none !important;" role="menuitem" aria-haspopup="true" aria-label="A workaround"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#">A workaround</a>
+                                        <ul class="menu submenu is-dropdown-submenu vertical" data-submenu="" role="menu">
+                                            <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#">for a bug where the dropdown menu fails sometimes unless there are two submenus in the submenu</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
         </div>
 
+        <section id="main-content-area" class="margin-top-large margin-bottom-large" role="main">
+
+
+            <link rel="stylesheet" href="./E-MTAB-4484_files/experiment.css">
+            <link rel="stylesheet" href="./E-MTAB-4484_files/alt-customized-bootstrap-3.3.5.css">
 
 
 
-        <div id="experimentReferences">Reference(s):
 
-                    <span><a class="pubmed-id" href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522" title="View publication in PubMed" target="_blank">25853487</a>
+
+            <div id="experimentDescription" class="row expanded">
+                <div class="small-12 columns">
+                    <h3 id="goto-experiment">
+                        Transcription profiling by high throughput sequencing of five different organs of wheat (leaf, shoot, root, spike, and grain) at three developmental stages each
+                    </h3>
+                    <h5>RNA-Seq mRNA baseline</h5>
+
+
+
+                    <div id="experimentOrganisms">Organism:
+                        <span style="font-style:italic">Triticum aestivum</span>
+                    </div>
+
+
+
+
+                    <div id="experimentReferences">Reference(s):
+
+                        <span><a class="pubmed-id" href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522" title="View publication in PubMed" target="_blank">25853487</a>
                         <a class="pubmed-genequery" style="cursor: pointer" data-pubmed-id="25853487" title="Filter by text-mined genes/proteins in reference publication">(Filter by genes in paper)</a>
                         &nbsp;&nbsp;&nbsp;
                     </span>
 
-        </div>
+                    </div>
 
 
 
 
 
-    </div>
-</div>
+                </div>
+            </div>
 
 
-<div class="row expanded margin-top-large">
-    <div class="small-12 columns">
-        <div id="experiment-page"><div data-reactroot=""><ul class="tabs"><li title="Results" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522" >Results</a></li><li title="Results" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522" class="active" style="color: rgb(10, 10, 10); background: rgb(230, 230, 230);">Gene Cards</a></li><li title="Experiment Design" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Experiment%20Design?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522">Experiment Design</a></li><li title="Supplementary Information" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Supplementary%20Information?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522">Supplementary Information</a></li><li title="Downloads" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Downloads?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522">Downloads</a></li></ul><div class="row expanded column margin-top-large"><div class="small-3 medium-2 columns padding-left-none"><div><h4>Genes</h4><div><span class="tag gxaTag"><span title="TRIAE_CS42_2BS_TGACv1_146768_AA0472460 (ensgene)">TRIAE_CS42_2BS_TGACv1_146768_AA0472460</span><span aria-hidden="true" style="margin-left: 0.2rem; position: relative; cursor: pointer;">✖</span></span><div class="gene-autocomplete standBy"><div style="display: block;"><input type="text" name="Enter gene" id="gene-autocomplete" role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" value=""></div></div></div><div class="row column margin-top-large"><button type="button" class="btn btn-default" style="text-transform: unset; letter-spacing: unset; height: unset; margin-right: 1rem;">Apply</button><button type="button" class="btn btn-default" style="text-transform: unset; letter-spacing: unset; height: unset;">Reset</button></div><div class="margin-top-large"><input type="checkbox" name="menu-item-false" id="menu-item-false" value="on"><label>Most specific</label></div><div><div><div>Expression value</div><span class="react-numeric-input" style="position: relative; display: block;"><input type="text" class="form-control" value="0.5" pattern=".*" style="padding-right: 3ex; box-sizing: border-box;"><b style="position: absolute; right: 2px; width: 2.26ex; border-color: rgba(0, 0, 0, 0.1); border-style: solid; text-align: center; cursor: default; transition: all 0.1s; background: rgba(0, 0, 0, 0.1); box-shadow: rgba(0, 0, 0, 0.1) -1px -1px 3px inset, rgba(255, 255, 255, 0.7) 1px 1px 3px inset; top: 2px; bottom: 50%; border-radius: 2px 2px 0px 0px; border-width: 1px 1px 0px;"><i style="position: absolute; top: 50%; left: 50%; width: 0px; height: 0px; border-width: 0px 0.6ex 0.6ex; border-color: transparent transparent rgba(0, 0, 0, 0.7); border-style: solid; margin: -0.3ex 0px 0px -0.56ex;"></i></b><b style="position: absolute; right: 2px; width: 2.26ex; border-color: rgba(0, 0, 0, 0.1); border-style: solid; text-align: center; cursor: default; transition: all 0.1s; background: rgba(0, 0, 0, 0.1); box-shadow: rgba(0, 0, 0, 0.1) -1px -1px 3px inset, rgba(255, 255, 255, 0.7) 1px 1px 3px inset; top: 50%; bottom: 2px; border-radius: 0px 0px 2px 2px; border-width: 0px 1px 1px;"><i style="position: absolute; top: 50%; left: 50%; width: 0px; height: 0px; border-width: 0.6ex 0.6ex 0px; border-color: rgba(0, 0, 0, 0.7) transparent transparent; border-style: solid; margin: -0.3ex 0px 0px -0.56ex;"></i></b></span></div></div><div><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" style="margin-bottom: 0.5rem; font-size: 85%;"><span class="glyphicon glyphicon-stats"></span><span style="margin-left: 0.25rem;">See distribution</span></a><!-- react-empty: 39 --></div><div><br><h4>Data units</h4><fieldset class="fieldset" style="padding: 0.25rem;"><div><input type="radio" name="menu-item-TPM" value="TPM" id="menu-item-TPM" style="margin: 0px;"><label for="menu-item-TPM">TPM</label></div><div><input type="radio" name="menu-item-FPKM" value="FPKM" id="menu-item-FPKM" style="margin: 0px;"><label for="menu-item-FPKM">FPKM</label></div></fieldset></div><br><h4>Experimental variables</h4><div class="row column margin-bottom-medium"><button type="button" class="btn btn-lg btn-default" style="text-transform: unset; letter-spacing: unset; height: unset;"><span class="glyphicon glyphicon-equalizer"></span><span style="vertical-align: middle;"> Select</span></button></div><div><p>Selected: 15 / 15</p></div><!-- react-empty: 139 --></div></div><div class="small-9 medium-10 columns padding-right-none"><div style="width: 100%;"><div style="width: 100%;"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#">Switch to heatmap view</a><div style="display: none; width: 100%;"><div style="clear: both; width: 100%;"><div style="clear: both;"><div style="display: inline-block; width: 30%;">Showing 1 gene:</div><div style="display: inline-block; width: 70%; text-align: right;"><div style="display: inline-block; padding: 5px;"><div><div title="Choose genome browser" class="dropdown btn-group"><button id="genome-browsers-dropdown" role="button" aria-haspopup="true" aria-expanded="false" type="button" class="gxaButtonUnset dropdown-toggle btn btn-sm btn-default"><span class="glyphicon glyphicon-eye-close"></span><!-- react-text: 610 -->&nbsp;<!-- /react-text --><!-- react-text: 611 -->Select genome browser to view tracks<!-- /react-text --><!-- react-text: 612 --> <!-- /react-text --><span class="caret"></span></button><ul role="menu" class="dropdown-menu dropdown-menu-sm" aria-labelledby="genome-browsers-dropdown"><li role="presentation" class="" style="list-style-image: none;"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" role="menuitem" tabindex="-1">Select genome browser to view tracks</a></li><li role="presentation" class="" style="list-style-image: none;"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" role="menuitem" tabindex="-1">Gramene genome browser</a></li><li role="presentation" class="" style="list-style-image: none;"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" role="menuitem" tabindex="-1">Ensembl Genomes genome browser</a></li></ul></div></div></div><div style="display: inline-block; padding: 5px;"><div class="dropdown btn-group btn-group-sm"><button type="button" class="gxaButtonUnset btn btn-sm btn-default">Download</button><button aria-label="Download" id="download-button" role="button" aria-haspopup="true" aria-expanded="false" type="button" class="dropdown-toggle btn btn-sm btn-default"><!-- react-text: 625 --> <!-- /react-text --><span class="caret"></span></button><ul role="menu" class="dropdown-menu" aria-labelledby="download-button"><li role="presentation" class="gxaButtonUnset"><a id="All data" role="menuitem" tabindex="-1" href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#"><span class="glyphicon glyphicon-download-alt"></span><!-- react-text: 631 --> <!-- /react-text --><!-- react-text: 632 -->All data<!-- /react-text --></a></li><li role="presentation" class="gxaButtonUnset"><a id="Table content" role="menuitem" tabindex="-1" href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#"><span class="glyphicon glyphicon-download-alt"></span><!-- react-text: 636 --> <!-- /react-text --><!-- react-text: 637 -->Table content<!-- /react-text --></a></li></ul></div></div></div></div><p style="clear: both; float: right; font-size: small; margin: 0px; display: none;">Click on a cell to open the selected genome browser with attached tracks if available</p><div style="clear: both;"><div style="width: 17%; margin-right: 3%; display: inline-block; vertical-align: top;"><div><div class="gxa-anatomogram-switcher"><img class="gxa-anatomogram-switcher-icon" src="./E-MTAB-4484_files/b6434f2d694b9cf3070660a5d0fb7ad3.png"><img class="gxa-anatomogram-switcher-icon" src="./E-MTAB-4484_files/cbab05b12c35d377aa6c047cd47d935c.png"></div><div class="gxa-anatomogram-svg-wrapper"><div><div><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="78.069733" height="158.28831" viewBox="0 0 78.069733 158.28831" preserveAspectRatio="none" id="svg2" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="triticum_aestivum_whole_plant.svg" class="injected-svg gxa-anatomogram-svg" style="padding-left:10px;" data-src="https://www.ebi.ac.uk/gxa/resources/js-bundles/eb959d9bbea6f5ee892ce2c7b045fb8d.svg">
+            <div class="row expanded margin-top-large">
+                <div class="small-12 columns">
+                    <div id="experiment-page">
+                        <div data-reactroot="">
+                            <ul class="tabs">
+                                <li title="Results" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522">Results</a></li>
+                                <li title="Results" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522" class="active" style="color: rgb(10, 10, 10); background: rgb(230, 230, 230);">Gene Cards</a></li>
+                                <li title="Experiment Design" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Experiment%20Design?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522">Experiment Design</a></li>
+                                <li title="Supplementary Information" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Supplementary%20Information?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522">Supplementary Information</a></li>
+                                <li title="Downloads" class="tabs-title"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Downloads?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522">Downloads</a></li>
+                            </ul>
+                            <h4>Selected gene</h4>
+                            <div class="gene-autocomplete standBy">
+                                <div style="width:500px"><input type="text" name="Enter gene" id="gene-autocomplete" role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" value="TRIAE_CS42_2BS_TGACv1_146768_AA0472460"><button type="button" class="btn btn-default" style="text-transform: unset; letter-spacing: unset; height: unset; margin-right: 1rem;">Apply</button></div>
+
+                            </div>
+
+                            <div class="row expanded column margin-top-large">
+                                <div class="small-3 medium-2 columns padding-left-none">
+                                    <div>
+
+                                        <div>
+
+                                            <h5>Gene ontology </h5>
+                                            <ul>
+                                            <li>
+                                                serine-type endopeptidase inhibitor activity
+                                            </li>
+                                            <li>
+                                                membrane
+                                            </li>
+                                            <li>
+                                                integral component of membrane
+                                            </li>
+                                            </ul>
+                                            <h5> Interpro </h5>
+                                            <ul>
+                                            <li>
+                                                Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain (domain)
+                                            </li>
+                                            <li>
+                                                Cereal seed allergen/grain softness/trypsin and alpha-amylase inhibitor (family)
+                                            </li>
+                                            <li>
+                                                Cereal seed allergen/trypsin and alpha-amylase inhibitor, conserved site (conserved_site)
+                                            </li>
+                                            </ul>
+
+                                            <h5> Biotype: protein coding </h5>
+
+                                        </div>
+                                        <div class="row column margin-top-large"><button type="button" class="btn btn-default" style="text-transform: unset; letter-spacing: unset; height: unset; margin-right: 1rem;">Apply</button><button type="button" class="btn btn-default" style="text-transform: unset; letter-spacing: unset; height: unset;">Reset</button></div>
+                                        <div class="margin-top-large"><input type="checkbox" name="menu-item-false" id="menu-item-false" value="on"><label>Most specific</label></div>
+                                        <div>
+                                            <div>
+                                                <div>Expression value</div><span class="react-numeric-input" style="position: relative; display: block;"><input type="text" class="form-control" value="0.5" pattern=".*" style="padding-right: 3ex; box-sizing: border-box;"><b style="position: absolute; right: 2px; width: 2.26ex; border-color: rgba(0, 0, 0, 0.1); border-style: solid; text-align: center; cursor: default; transition: all 0.1s; background: rgba(0, 0, 0, 0.1); box-shadow: rgba(0, 0, 0, 0.1) -1px -1px 3px inset, rgba(255, 255, 255, 0.7) 1px 1px 3px inset; top: 2px; bottom: 50%; border-radius: 2px 2px 0px 0px; border-width: 1px 1px 0px;"><i style="position: absolute; top: 50%; left: 50%; width: 0px; height: 0px; border-width: 0px 0.6ex 0.6ex; border-color: transparent transparent rgba(0, 0, 0, 0.7); border-style: solid; margin: -0.3ex 0px 0px -0.56ex;"></i></b><b style="position: absolute; right: 2px; width: 2.26ex; border-color: rgba(0, 0, 0, 0.1); border-style: solid; text-align: center; cursor: default; transition: all 0.1s; background: rgba(0, 0, 0, 0.1); box-shadow: rgba(0, 0, 0, 0.1) -1px -1px 3px inset, rgba(255, 255, 255, 0.7) 1px 1px 3px inset; top: 50%; bottom: 2px; border-radius: 0px 0px 2px 2px; border-width: 0px 1px 1px;"><i style="position: absolute; top: 50%; left: 50%; width: 0px; height: 0px; border-width: 0.6ex 0.6ex 0px; border-color: rgba(0, 0, 0, 0.7) transparent transparent; border-style: solid; margin: -0.3ex 0px 0px -0.56ex;"></i></b></span></div>
+                                        </div>
+                                        <div><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" style="margin-bottom: 0.5rem; font-size: 85%;"><span class="glyphicon glyphicon-stats"></span><span style="margin-left: 0.25rem;">See distribution</span></a>
+                                            <!-- react-empty: 39 -->
+                                        </div>
+                                        <div><br>
+                                            <h4>Data units</h4>
+                                            <fieldset class="fieldset" style="padding: 0.25rem;">
+                                                <div><input type="radio" name="menu-item-TPM" value="TPM" id="menu-item-TPM" style="margin: 0px;"><label for="menu-item-TPM">TPM</label></div>
+                                                <div><input type="radio" name="menu-item-FPKM" value="FPKM" id="menu-item-FPKM" style="margin: 0px;"><label for="menu-item-FPKM">FPKM</label></div>
+                                            </fieldset>
+                                        </div><br>
+                                        <h4>Experimental variables</h4>
+                                        <div class="row column margin-bottom-medium"><button type="button" class="btn btn-lg btn-default" style="text-transform: unset; letter-spacing: unset; height: unset;"><span class="glyphicon glyphicon-equalizer"></span><span style="vertical-align: middle;"> Select</span></button></div>
+                                        <div>
+                                            <p>Selected: 15 / 15</p>
+                                        </div>
+                                        <!-- react-empty: 139 -->
+                                    </div>
+                                </div>
+                                <div class="small-9 medium-10 columns padding-right-none">
+                                    <div style="width: 100%;">
+                                        <div style="width: 100%;"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#">Switch to heatmap view</a>
+                                            <div style="display: none; width: 100%;">
+                                                <div style="clear: both; width: 100%;">
+                                                    <div style="clear: both;">
+                                                        <div style="display: inline-block; width: 30%;">Showing 1 gene:</div>
+                                                        <div style="display: inline-block; width: 70%; text-align: right;">
+                                                            <div style="display: inline-block; padding: 5px;">
+                                                                <div>
+                                                                    <div title="Choose genome browser" class="dropdown btn-group"><button id="genome-browsers-dropdown" role="button" aria-haspopup="true" aria-expanded="false" type="button" class="gxaButtonUnset dropdown-toggle btn btn-sm btn-default"><span class="glyphicon glyphicon-eye-close"></span><!-- react-text: 610 -->&nbsp;<!-- /react-text --><!-- react-text: 611 -->Select genome browser to view tracks<!-- /react-text --><!-- react-text: 612 --> <!-- /react-text --><span class="caret"></span></button>
+                                                                        <ul role="menu" class="dropdown-menu dropdown-menu-sm" aria-labelledby="genome-browsers-dropdown">
+                                                                            <li role="presentation" class="" style="list-style-image: none;"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" role="menuitem" tabindex="-1">Select genome browser to view tracks</a></li>
+                                                                            <li role="presentation" class="" style="list-style-image: none;"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" role="menuitem" tabindex="-1">Gramene genome browser</a></li>
+                                                                            <li role="presentation" class="" style="list-style-image: none;"><a href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#" role="menuitem" tabindex="-1">Ensembl Genomes genome browser</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div style="display: inline-block; padding: 5px;">
+                                                                <div class="dropdown btn-group btn-group-sm"><button type="button" class="gxaButtonUnset btn btn-sm btn-default">Download</button><button aria-label="Download" id="download-button" role="button" aria-haspopup="true" aria-expanded="false" type="button" class="dropdown-toggle btn btn-sm btn-default"><!-- react-text: 625 --> <!-- /react-text --><span class="caret"></span></button>
+                                                                    <ul role="menu" class="dropdown-menu" aria-labelledby="download-button">
+                                                                        <li role="presentation" class="gxaButtonUnset"><a id="All data" role="menuitem" tabindex="-1" href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#"><span class="glyphicon glyphicon-download-alt"></span><!-- react-text: 631 --> <!-- /react-text --><!-- react-text: 632 -->All data<!-- /react-text --></a></li>
+                                                                        <li role="presentation" class="gxaButtonUnset"><a id="Table content" role="menuitem" tabindex="-1" href="http://www-test.ebi.ac.uk/gxa/experiments/E-MTAB-4484/Results?specific=false&amp;geneQuery=%255B%257B%2522value%2522%253A%2522TRIAE_CS42_2BS_TGACv1_146768_AA0472460%2522%252C%2522category%2522%253A%2522ensgene%2522%257D%255D&amp;filterFactors=%257B%257D&amp;cutoff=%257B%2522value%2522%253A0.5%257D&amp;unit=%2522TPM%2522#"><span class="glyphicon glyphicon-download-alt"></span><!-- react-text: 636 --> <!-- /react-text --><!-- react-text: 637 -->Table content<!-- /react-text --></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p style="clear: both; float: right; font-size: small; margin: 0px; display: none;">Click on a cell to open the selected genome browser with attached tracks if available</p>
+                                                    <div style="clear: both;">
+                                                        <div style="width: 17%; margin-right: 3%; display: inline-block; vertical-align: top;">
+                                                            <div>
+                                                                <div class="gxa-anatomogram-switcher"><img class="gxa-anatomogram-switcher-icon" src="./E-MTAB-4484_files/b6434f2d694b9cf3070660a5d0fb7ad3.png"><img class="gxa-anatomogram-switcher-icon" src="./E-MTAB-4484_files/cbab05b12c35d377aa6c047cd47d935c.png"></div>
+                                                                <div class="gxa-anatomogram-svg-wrapper">
+                                                                    <div>
+                                                                        <div><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="78.069733" height="158.28831" viewBox="0 0 78.069733 158.28831" preserveAspectRatio="none" id="svg2" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="triticum_aestivum_whole_plant.svg" class="injected-svg gxa-anatomogram-svg" style="padding-left:10px;" data-src="https://www.ebi.ac.uk/gxa/resources/js-bundles/eb959d9bbea6f5ee892ce2c7b045fb8d.svg">
   <defs id="defs4"></defs>
   <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="3.959798" inkscape:cx="-64.977903" inkscape:cy="69.811417" inkscape:document-units="px" inkscape:current-layer="LAYER_OUTLINE" showgrid="false" inkscape:window-width="1680" inkscape:window-height="1000" inkscape:window-x="0" inkscape:window-y="1" inkscape:window-maximized="0" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" units="px"></sodipodi:namedview>
   <metadata id="metadata">
@@ -815,74 +1630,159 @@
       <title id="inflorescence">inflorescence</title>
     </path>
   </g>
-</svg></div></div></div></div></div><div style="width: 80%; display: inline-block; vertical-align: top;"><div><div class="gxaGradientLegend"><div><span><!-- react-text: 652 -->Expression level in <!-- /react-text --><!-- react-text: 653 -->TPM<!-- /react-text --></span></div><div style="display: table-row;"><div class="gxaGradientLevel gxaGradientLevelMin">0</div><div style="display: table-cell; vertical-align: middle;"><span class="gxaGradientColour" style="background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(160, 204, 246), rgb(105, 149, 236), rgb(0, 0, 179));"></span></div><div class="gxaGradientLevel gxaGradientLevelMax">348</div></div></div><div><div data-highcharts-chart="10"><div id="highcharts-krnj1fx-51" class="highcharts-container " style="position: relative; overflow: hidden; width: 1118px; height: 310px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg version="1.1" class="highcharts-root" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="1118" height="310" viewBox="0 0 1118 310"><desc>Created with Highcharts 5.0.11-modified</desc><defs><clippath id="highcharts-krnj1fx-52"><rect x="0" y="0" width="732" height="43" fill="none"></rect></clippath></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="1118" height="310" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="324" y="257" width="732" height="43"></rect><g class="highcharts-pane-group"></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 372.5 257 L 372.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 421.5 257 L 421.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 469.5 257 L 469.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 518.5 257 L 518.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 567.5 257 L 567.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 616.5 257 L 616.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 665.5 257 L 665.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 713.5 257 L 713.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 762.5 257 L 762.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 811.5 257 L 811.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 860.5 257 L 860.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 909.5 257 L 909.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 957.5 257 L 957.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1006.5 257 L 1006.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1055.5 257 L 1055.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 323.5 257 L 323.5 300" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 324 300.5 L 1056 300.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 324 257.5 L 1056 257.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" stroke="#cccccc" stroke-width="1" x="323.5" y="256.5" width="733" height="44"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 372.5 257 L 372.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 421.5 257 L 421.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 469.5 257 L 469.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 518.5 257 L 518.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 567.5 257 L 567.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 616.5 257 L 616.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 665.5 257 L 665.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 713.5 257 L 713.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 762.5 257 L 762.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 811.5 257 L 811.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 860.5 257 L 860.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 909.5 257 L 909.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 957.5 257 L 957.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1006.5 257 L 1006.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1056.5 257 L 1056.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 323.5 257 L 323.5 252" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 324 256.5 L 1056 256.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 324 257 L 324 300"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="url(#highcharts-krnj1fx-52)"></g><g class="highcharts-markers highcharts-series-0 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="url(#highcharts-krnj1fx-52)"><rect x="98" y="0" width="48" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect><rect x="146" y="0" width="49" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect><rect x="342" y="0" width="48" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect><rect x="439" y="0" width="49" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect><rect x="683" y="0" width="49" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-1 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-2 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="url(#highcharts-krnj1fx-52)"></g><g class="highcharts-markers highcharts-series-2 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-3 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="url(#highcharts-krnj1fx-52)"><rect x="244" y="0" width="49" height="43" fill="#0000b3" stroke="white" stroke-width="1" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-3 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="none"></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="351.22842712474625" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 351.22842712474625 249)" y="249" opacity="1"><tspan>2.03 main shoot and axillary shoots visible at three nodes stage, leaf</tspan></text><text x="400.02842712474626" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 400.02842712474626 249)" y="249" opacity="1"><tspan>cotyledon emergence stage, leaf</tspan></text><text x="448.8284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 448.8284271247462 249)" y="249" opacity="1"><tspan>cotyledon emergence stage, root</tspan></text><text x="497.6284271247463" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 497.6284271247463 249)" y="249" opacity="1"><tspan>whole plant fruit formation stage 30 to 50%, fruit</tspan></text><text x="546.4284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 546.4284271247462 249)" y="249" opacity="1"><tspan>whole plant fruit formation stage 30 to 50%, leaf</tspan></text><text x="595.2284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 595.2284271247462 249)" y="249" opacity="1"><tspan>whole plant fruit formation stage 70% to final size, fruit</tspan></text><text x="644.0284271247461" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 644.0284271247461 249)" y="249" opacity="1"><tspan>FL.02 1/2 of flowers open stage, inflorescence</tspan></text><text x="692.8284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 692.8284271247462 249)" y="249" opacity="1"><tspan>whole plant fruit ripening stage, fruit</tspan></text><text x="741.6284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 741.6284271247462 249)" y="249" opacity="1"><tspan>FL.02 1/2 of flowers open stage, stem</tspan></text><text x="790.4284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 790.4284271247462 249)" y="249" opacity="1"><tspan>LP.03 three leaves visible stage, root</tspan></text><text x="839.2284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 839.2284271247462 249)" y="249" opacity="1"><tspan>SE.00 stem elongation begins stage, stem</tspan></text><text x="888.0284271247461" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 888.0284271247461 249)" y="249" opacity="1"><tspan>SE.02 two nodes or internodes visible stage, inflorescence</tspan></text><text x="936.8284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 936.8284271247462 249)" y="249" opacity="1"><tspan>SE.02 two nodes or internodes visible stage, stem</tspan></text><text x="985.6284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 985.6284271247462 249)" y="249" opacity="1"><tspan>SE.99 maximum stem length reached stage, inflorescence</tspan></text><text x="1034.4284271247461" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 1034.4284271247461 249)" y="249" opacity="1"><tspan>SE.99 maximum stem length reached stage, root</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="309" style="color:#148ff3;cursor:default;font-size:small;fill:#148ff3;" text-anchor="end" transform="translate(0,0)" y="283" opacity="1"><tspan onclick="window.open(&quot;/gxa/genes/TRIAE_CS42_2BS_TGACv1_146768_AA0472460&quot;)" style="cursor: pointer;">TRIAE_CS42_2BS_TGACv1_146768_AA0472460</tspan></text></g></svg></div></div></div></div></div></div></div></div><div style="display: block; width: 100%;"><div data-highcharts-chart="12"><div id="highcharts-krnj1fx-60" class="highcharts-container " style="position: relative; overflow: hidden; width: 1444px; height: 400px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg version="1.1" class="highcharts-root" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="1444" height="400" viewBox="0 0 1444 400"><desc>Created with Highcharts 5.0.11-modified</desc><defs><clippath id="highcharts-krnj1fx-61"><rect x="0" y="0" width="1311" height="272" fill="none"></rect></clippath></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="1444" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="71" y="46" width="1311" height="272"></rect><g class="highcharts-pane-group"></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 157.5 46 L 157.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 245.5 46 L 245.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 332.5 46 L 332.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 420.5 46 L 420.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 507.5 46 L 507.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 594.5 46 L 594.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 682.5 46 L 682.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 769.5 46 L 769.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 857.5 46 L 857.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 944.5 46 L 944.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1031.5 46 L 1031.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1119.5 46 L 1119.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1206.5 46 L 1206.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1294.5 46 L 1294.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1381.5 46 L 1381.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 70.5 46 L 70.5 318" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 318.5 L 1382 318.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 250.5 L 1382 250.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 182.5 L 1382 182.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 114.5 L 1382 114.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 45.5 L 1382 45.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" x="71" y="46" width="1311" height="272"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 157.5 318 L 157.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 245.5 318 L 245.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 332.5 318 L 332.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 420.5 318 L 420.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 507.5 318 L 507.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 594.5 318 L 594.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 682.5 318 L 682.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 769.5 318 L 769.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 857.5 318 L 857.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 944.5 318 L 944.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1031.5 318 L 1031.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1119.5 318 L 1119.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1206.5 318 L 1206.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1294.5 318 L 1294.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1381.5 318 L 1381.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 70.5 318 L 70.5 323" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 71 318.5 L 1382 318.5"></path></g><g class="highcharts-axis highcharts-yaxis "><text x="25.140625" text-anchor="middle" transform="translate(0,0) rotate(270 25.140625 182)" class="highcharts-axis-title" style="color:#666666;fill:#666666;" y="182"><tspan>Expression (TPM)</tspan></text><path fill="none" class="highcharts-axis-line" d="M 71 46 L 71 318"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-boxplot-series highcharts-color-0 highcharts-tracker " transform="translate(71,46) scale(1 1)" clip-path="url(#highcharts-krnj1fx-61)"><g class="highcharts-point " fill="#ffffff" stroke="#7cb5ec" stroke-width="1"><path fill="none" class="highcharts-boxplot-stem" stroke="#7cb5ec" stroke-width="1" d="M 305.5 269 L 305.5 269 M 305.5 270 L 305.5 270"></path><path fill="none" class="highcharts-boxplot-whisker" stroke="#7cb5ec" stroke-width="2" d="M 295 269 L 316 269 M 295 270 L 316 270"></path><path fill="#ffffff" class="highcharts-boxplot-box" stroke="#7cb5ec" stroke-width="1" d="M 284.5 269.5 L 284.5 270.5 L 326.5 270.5 L 326.5 269.5 L 284.5 269.5 z"></path><path fill="none" class="highcharts-boxplot-median" stroke="#7cb5ec" stroke-width="2" d="M 284.5 271 L 326.5 271"></path></g><g class="highcharts-point " fill="#ffffff" stroke="#7cb5ec" stroke-width="1"><path fill="none" class="highcharts-boxplot-stem" stroke="#7cb5ec" stroke-width="1" d="M 480.5 34 L 480.5 33 M 480.5 36 L 480.5 37"></path><path fill="none" class="highcharts-boxplot-whisker" stroke="#7cb5ec" stroke-width="2" d="M 470 33 L 491 33 M 470 37 L 491 37"></path><path fill="#ffffff" class="highcharts-boxplot-box" stroke="#7cb5ec" stroke-width="1" d="M 459.5 34.5 L 459.5 36.5 L 501.5 36.5 L 501.5 34.5 L 459.5 34.5 z"></path><path fill="none" class="highcharts-boxplot-median" stroke="#7cb5ec" stroke-width="2" d="M 459.5 35 L 501.5 35"></path></g><g class="highcharts-point"><path fill="none" class="highcharts-boxplot-stem" stroke="#7cb5ec" stroke-width="1" d="M 655.5 270 L 655.5 270 M 655.5 271 L 655.5 271"></path><path fill="none" class="highcharts-boxplot-whisker" stroke="#7cb5ec" stroke-width="2" d="M 645 270 L 666 270 M 645 271 L 666 271"></path><path fill="#ffffff" class="highcharts-boxplot-box" stroke="#7cb5ec" stroke-width="1" d="M 634.5 270.5 L 634.5 271.5 L 676.5 271.5 L 676.5 270.5 L 634.5 270.5 z"></path><path fill="none" class="highcharts-boxplot-median" stroke="#7cb5ec" stroke-width="2" d="M 634.5 271 L 676.5 271"></path></g><g class="highcharts-point " fill="#ffffff" stroke="#7cb5ec" stroke-width="1"><path fill="none" class="highcharts-boxplot-stem" stroke="#7cb5ec" stroke-width="1" d="M 1266.5 270 L 1266.5 270 M 1266.5 270 L 1266.5 271"></path><path fill="none" class="highcharts-boxplot-whisker" stroke="#7cb5ec" stroke-width="2" d="M 1256 270 L 1277 270 M 1256 271 L 1277 271"></path><path fill="#ffffff" class="highcharts-boxplot-box" stroke="#7cb5ec" stroke-width="1" d="M 1245.5 270.5 L 1245.5 270.5 L 1287.5 270.5 L 1287.5 270.5 L 1245.5 270.5 z"></path><path fill="none" class="highcharts-boxplot-median" stroke="#7cb5ec" stroke-width="2" d="M 1245.5 271 L 1287.5 271"></path></g></g><g class="highcharts-markers highcharts-series-0 highcharts-boxplot-series highcharts-color-0 " transform="translate(71,46) scale(1 1)" clip-path="none"></g></g><text x="677" text-anchor="middle" class="highcharts-title" style="color:#333333;font-size:18px;fill:#333333;" y="24"><tspan>TRIAE_CS42_2BS_TGACv1_146768_AA0472460</tspan></text><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="114.7" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>2.03 main shoot</tspan><tspan dy="12" x="114.7">and axillary</tspan><tspan dy="12" x="114.7">shoots visible at</tspan><tspan dy="12" x="114.7">three nodes</tspan><tspan dy="12" x="114.7">stage, leaf</tspan><title>2.03 main shoot and axillary shoots visible at three nodes stage, leaf</title></text><text x="202.10000000000002" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>cotyledon</tspan><tspan dy="12" x="202.10000000000002">emergence</tspan><tspan dy="12" x="202.10000000000002">stage, leaf</tspan><title>cotyledon emergence stage, leaf</title></text><text x="289.5" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>cotyledon</tspan><tspan dy="12" x="289.5">emergence</tspan><tspan dy="12" x="289.5">stage, root</tspan><title>cotyledon emergence stage, root</title></text><text x="376.90000000000003" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>whole plant fruit</tspan><tspan dy="12" x="376.90000000000003">formation stage</tspan><tspan dy="12" x="376.90000000000003">30 to 50%, fruit</tspan><title>whole plant fruit formation stage 30 to 50%, fruit</title></text><text x="464.3" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>whole plant fruit</tspan><tspan dy="12" x="464.3">formation stage</tspan><tspan dy="12" x="464.3">30 to 50%, leaf</tspan><title>whole plant fruit formation stage 30 to 50%, leaf</title></text><text x="551.7" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>whole plant fruit</tspan><tspan dy="12" x="551.7">formation stage</tspan><tspan dy="12" x="551.7">70% to final size,</tspan><tspan dy="12" x="551.7">fruit</tspan><title>whole plant fruit formation stage 70% to final size, fruit</title></text><text x="639.1" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>FL.02 1/2 of</tspan><tspan dy="12" x="639.1">flowers open</tspan><tspan dy="12" x="639.1">stage,</tspan><tspan dy="12" x="639.1">inflorescence</tspan><title>FL.02 1/2 of flowers open stage, inflorescence</title></text><text x="726.5" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>whole plant fruit</tspan><tspan dy="12" x="726.5">ripening stage,</tspan><tspan dy="12" x="726.5">fruit</tspan><title>whole plant fruit ripening stage, fruit</title></text><text x="813.9000000000001" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>FL.02 1/2 of</tspan><tspan dy="12" x="813.9000000000001">flowers open</tspan><tspan dy="12" x="813.9000000000001">stage, stem</tspan><title>FL.02 1/2 of flowers open stage, stem</title></text><text x="901.3000000000001" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>LP.03 three</tspan><tspan dy="12" x="901.3000000000001">leaves visible</tspan><tspan dy="12" x="901.3000000000001">stage, root</tspan><title>LP.03 three leaves visible stage, root</title></text><text x="988.7" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.00 stem</tspan><tspan dy="12" x="988.7">elongation</tspan><tspan dy="12" x="988.7">begins stage,</tspan><tspan dy="12" x="988.7">stem</tspan><title>SE.00 stem elongation begins stage, stem</title></text><text x="1076.1" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.02 two nodes</tspan><tspan dy="12" x="1076.1">or internodes</tspan><tspan dy="12" x="1076.1">visible stage,</tspan><tspan dy="12" x="1076.1">inflorescence</tspan><title>SE.02 two nodes or internodes visible stage, inflorescence</title></text><text x="1163.5" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.02 two nodes</tspan><tspan dy="12" x="1163.5">or internodes</tspan><tspan dy="12" x="1163.5">visible stage,</tspan><tspan dy="12" x="1163.5">stem</tspan><title>SE.02 two nodes or internodes visible stage, stem</title></text><text x="1250.9" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.99 maximum</tspan><tspan dy="12" x="1250.9">stem length</tspan><tspan dy="12" x="1250.9">reached stage,</tspan><tspan dy="12" x="1250.9">inflorescence</tspan><title>SE.99 maximum stem length reached stage, inflorescence</title></text><text x="1338.3000000000002" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.99 maximum</tspan><tspan dy="12" x="1338.3000000000002">stem length</tspan><tspan dy="12" x="1338.3000000000002">reached stage,</tspan><tspan dy="12" x="1338.3000000000002">root</tspan><title>SE.99 maximum stem length reached stage, root</title></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="323" opacity="1"><tspan>0</tspan></text><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="255" opacity="1"><tspan>100</tspan></text><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="187" opacity="1"><tspan>200</tspan></text><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1"><tspan>300</tspan></text><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="51" opacity="1"><tspan>400</tspan></text></g><g class="highcharts-label highcharts-tooltip highcharts-color-0" style="cursor:default;pointer-events:none;white-space:nowrap;" transform="translate(1050,-9999)" opacity="0" visibility="visible"><path fill="none" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 342.5 0.5 C 345.5 0.5 345.5 0.5 345.5 3.5 L 345.5 118.5 C 345.5 121.5 345.5 121.5 342.5 121.5 L 248.5 121.5 242.5 127.5 236.5 121.5 3.5 121.5 C 0.5 121.5 0.5 121.5 0.5 118.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="#000000" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></path><path fill="none" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 342.5 0.5 C 345.5 0.5 345.5 0.5 345.5 3.5 L 345.5 118.5 C 345.5 121.5 345.5 121.5 342.5 121.5 L 248.5 121.5 242.5 127.5 236.5 121.5 3.5 121.5 C 0.5 121.5 0.5 121.5 0.5 118.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="#000000" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></path><path fill="none" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 342.5 0.5 C 345.5 0.5 345.5 0.5 345.5 3.5 L 345.5 118.5 C 345.5 121.5 345.5 121.5 342.5 121.5 L 248.5 121.5 242.5 127.5 236.5 121.5 3.5 121.5 C 0.5 121.5 0.5 121.5 0.5 118.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="#000000" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></path><path fill="rgba(247,247,247,0.85)" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 342.5 0.5 C 345.5 0.5 345.5 0.5 345.5 3.5 L 345.5 118.5 C 345.5 121.5 345.5 121.5 342.5 121.5 L 248.5 121.5 242.5 127.5 236.5 121.5 3.5 121.5 C 0.5 121.5 0.5 121.5 0.5 118.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#7cb5ec" stroke-width="1"></path><text x="8" style="font-size:12px;color:#333333;fill:#333333;" y="20"><tspan style="font-style:italic">Factor: SE.99 maximum stem length reached stage, root</tspan><tspan style="fill:#7cb5ec" x="8" dy="15">●</tspan><tspan style="font-weight:bold" dx="0"> Observations</tspan><tspan x="8" dy="15">Maximum: 2</tspan><tspan x="8" dy="15">Upper quartile: 2</tspan><tspan x="8" dy="15">Median: 2</tspan><tspan x="8" dy="15">Lower quartile: 2</tspan><tspan x="8" dy="15">Minimum: 1</tspan></text></g></svg></div></div></div></div></div></div></div></div></div>
+</svg></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="width: 80%; display: inline-block; vertical-align: top;">
+                                                            <div>
+                                                                <div class="gxaGradientLegend">
+                                                                    <div><span><!-- react-text: 652 -->Expression level in <!-- /react-text --><!-- react-text: 653 -->TPM<!-- /react-text --></span></div>
+                                                                    <div style="display: table-row;">
+                                                                        <div class="gxaGradientLevel gxaGradientLevelMin">0</div>
+                                                                        <div style="display: table-cell; vertical-align: middle;"><span class="gxaGradientColour" style="background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(160, 204, 246), rgb(105, 149, 236), rgb(0, 0, 179));"></span></div>
+                                                                        <div class="gxaGradientLevel gxaGradientLevelMax">348</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-highcharts-chart="10">
+                                                                        <div id="highcharts-krnj1fx-51" class="highcharts-container " style="position: relative; overflow: hidden; width: 1118px; height: 310px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg version="1.1" class="highcharts-root" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="1118" height="310" viewBox="0 0 1118 310"><desc>Created with Highcharts 5.0.11-modified</desc><defs><clippath id="highcharts-krnj1fx-52"><rect x="0" y="0" width="732" height="43" fill="none"></rect></clippath></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="1118" height="310" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="324" y="257" width="732" height="43"></rect><g class="highcharts-pane-group"></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 372.5 257 L 372.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 421.5 257 L 421.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 469.5 257 L 469.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 518.5 257 L 518.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 567.5 257 L 567.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 616.5 257 L 616.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 665.5 257 L 665.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 713.5 257 L 713.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 762.5 257 L 762.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 811.5 257 L 811.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 860.5 257 L 860.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 909.5 257 L 909.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 957.5 257 L 957.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1006.5 257 L 1006.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1055.5 257 L 1055.5 300" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 323.5 257 L 323.5 300" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 324 300.5 L 1056 300.5" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 324 257.5 L 1056 257.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" stroke="#cccccc" stroke-width="1" x="323.5" y="256.5" width="733" height="44"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 372.5 257 L 372.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 421.5 257 L 421.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 469.5 257 L 469.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 518.5 257 L 518.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 567.5 257 L 567.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 616.5 257 L 616.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 665.5 257 L 665.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 713.5 257 L 713.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 762.5 257 L 762.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 811.5 257 L 811.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 860.5 257 L 860.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 909.5 257 L 909.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 957.5 257 L 957.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1006.5 257 L 1006.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1056.5 257 L 1056.5 252" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 323.5 257 L 323.5 252" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 324 256.5 L 1056 256.5"></path></g><g class="highcharts-axis highcharts-yaxis "><path fill="none" class="highcharts-axis-line" d="M 324 257 L 324 300"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="url(#highcharts-krnj1fx-52)"></g><g class="highcharts-markers highcharts-series-0 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-1 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="url(#highcharts-krnj1fx-52)"><rect x="98" y="0" width="48" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect><rect x="146" y="0" width="49" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect><rect x="342" y="0" width="48" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect><rect x="439" y="0" width="49" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect><rect x="683" y="0" width="49" height="43" fill="#8cc6ff" stroke="white" stroke-width="1" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-1 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-2 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="url(#highcharts-krnj1fx-52)"></g><g class="highcharts-markers highcharts-series-2 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="none"></g><g class="highcharts-series highcharts-series-3 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="url(#highcharts-krnj1fx-52)"><rect x="244" y="0" width="49" height="43" fill="#0000b3" stroke="white" stroke-width="1" class="highcharts-point"></rect></g><g class="highcharts-markers highcharts-series-3 highcharts-heatmap-series highcharts-color-undefined highcharts-tracker" transform="translate(324,257) scale(1 1)" clip-path="none"></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="351.22842712474625" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 351.22842712474625 249)" y="249" opacity="1"><tspan>2.03 main shoot and axillary shoots visible at three nodes stage, leaf</tspan></text><text x="400.02842712474626" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 400.02842712474626 249)" y="249" opacity="1"><tspan>cotyledon emergence stage, leaf</tspan></text><text x="448.8284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 448.8284271247462 249)" y="249" opacity="1"><tspan>cotyledon emergence stage, root</tspan></text><text x="497.6284271247463" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 497.6284271247463 249)" y="249" opacity="1"><tspan>whole plant fruit formation stage 30 to 50%, fruit</tspan></text><text x="546.4284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 546.4284271247462 249)" y="249" opacity="1"><tspan>whole plant fruit formation stage 30 to 50%, leaf</tspan></text><text x="595.2284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 595.2284271247462 249)" y="249" opacity="1"><tspan>whole plant fruit formation stage 70% to final size, fruit</tspan></text><text x="644.0284271247461" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 644.0284271247461 249)" y="249" opacity="1"><tspan>FL.02 1/2 of flowers open stage, inflorescence</tspan></text><text x="692.8284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 692.8284271247462 249)" y="249" opacity="1"><tspan>whole plant fruit ripening stage, fruit</tspan></text><text x="741.6284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 741.6284271247462 249)" y="249" opacity="1"><tspan>FL.02 1/2 of flowers open stage, stem</tspan></text><text x="790.4284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 790.4284271247462 249)" y="249" opacity="1"><tspan>LP.03 three leaves visible stage, root</tspan></text><text x="839.2284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 839.2284271247462 249)" y="249" opacity="1"><tspan>SE.00 stem elongation begins stage, stem</tspan></text><text x="888.0284271247461" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 888.0284271247461 249)" y="249" opacity="1"><tspan>SE.02 two nodes or internodes visible stage, inflorescence</tspan></text><text x="936.8284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 936.8284271247462 249)" y="249" opacity="1"><tspan>SE.02 two nodes or internodes visible stage, stem</tspan></text><text x="985.6284271247462" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 985.6284271247462 249)" y="249" opacity="1"><tspan>SE.99 maximum stem length reached stage, inflorescence</tspan></text><text x="1034.4284271247461" style="color:#666666;cursor:default;font-size:smaller;white-space:nowrap;fill:#666666;" text-anchor="start" transform="translate(0,0) rotate(-45 1034.4284271247461 249)" y="249" opacity="1"><tspan>SE.99 maximum stem length reached stage, root</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="309" style="color:#148ff3;cursor:default;font-size:small;fill:#148ff3;" text-anchor="end" transform="translate(0,0)" y="283" opacity="1"><tspan onclick="window.open(&quot;/gxa/genes/TRIAE_CS42_2BS_TGACv1_146768_AA0472460&quot;)" style="cursor: pointer;">TRIAE_CS42_2BS_TGACv1_146768_AA0472460</tspan></text></g></svg></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="display: block; width: 100%;">
+                                                <div data-highcharts-chart="12">
+                                                    <div id="highcharts-krnj1fx-60" class="highcharts-container " style="position: relative; overflow: hidden; width: 1444px; height: 400px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg version="1.1" class="highcharts-root" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="1444" height="400" viewBox="0 0 1444 400"><desc>Created with Highcharts 5.0.11-modified</desc><defs><clippath id="highcharts-krnj1fx-61"><rect x="0" y="0" width="1311" height="272" fill="none"></rect></clippath></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="1444" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="71" y="46" width="1311" height="272"></rect><g class="highcharts-pane-group"></g><g class="highcharts-grid highcharts-xaxis-grid "><path fill="none" class="highcharts-grid-line" d="M 157.5 46 L 157.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 245.5 46 L 245.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 332.5 46 L 332.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 420.5 46 L 420.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 507.5 46 L 507.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 594.5 46 L 594.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 682.5 46 L 682.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 769.5 46 L 769.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 857.5 46 L 857.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 944.5 46 L 944.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1031.5 46 L 1031.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1119.5 46 L 1119.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1206.5 46 L 1206.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1294.5 46 L 1294.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 1381.5 46 L 1381.5 318" opacity="1"></path><path fill="none" class="highcharts-grid-line" d="M 70.5 46 L 70.5 318" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid "><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 318.5 L 1382 318.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 250.5 L 1382 250.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 182.5 L 1382 182.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 114.5 L 1382 114.5" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 71 45.5 L 1382 45.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" x="71" y="46" width="1311" height="272"></rect><g class="highcharts-axis highcharts-xaxis "><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 157.5 318 L 157.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 245.5 318 L 245.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 332.5 318 L 332.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 420.5 318 L 420.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 507.5 318 L 507.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 594.5 318 L 594.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 682.5 318 L 682.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 769.5 318 L 769.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 857.5 318 L 857.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 944.5 318 L 944.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1031.5 318 L 1031.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1119.5 318 L 1119.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1206.5 318 L 1206.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1294.5 318 L 1294.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 1381.5 318 L 1381.5 323" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 70.5 318 L 70.5 323" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="rgb(192, 192, 192)" stroke-width="1" d="M 71 318.5 L 1382 318.5"></path></g><g class="highcharts-axis highcharts-yaxis "><text x="25.140625" text-anchor="middle" transform="translate(0,0) rotate(270 25.140625 182)" class="highcharts-axis-title" style="color:#666666;fill:#666666;" y="182"><tspan>Expression (TPM)</tspan></text><path fill="none" class="highcharts-axis-line" d="M 71 46 L 71 318"></path></g><g class="highcharts-series-group"><g class="highcharts-series highcharts-series-0 highcharts-boxplot-series highcharts-color-0 highcharts-tracker " transform="translate(71,46) scale(1 1)" clip-path="url(#highcharts-krnj1fx-61)"><g class="highcharts-point " fill="#ffffff" stroke="#7cb5ec" stroke-width="1"><path fill="none" class="highcharts-boxplot-stem" stroke="#7cb5ec" stroke-width="1" d="M 305.5 269 L 305.5 269 M 305.5 270 L 305.5 270"></path><path fill="none" class="highcharts-boxplot-whisker" stroke="#7cb5ec" stroke-width="2" d="M 295 269 L 316 269 M 295 270 L 316 270"></path><path fill="#ffffff" class="highcharts-boxplot-box" stroke="#7cb5ec" stroke-width="1" d="M 284.5 269.5 L 284.5 270.5 L 326.5 270.5 L 326.5 269.5 L 284.5 269.5 z"></path><path fill="none" class="highcharts-boxplot-median" stroke="#7cb5ec" stroke-width="2" d="M 284.5 271 L 326.5 271"></path></g><g class="highcharts-point " fill="#ffffff" stroke="#7cb5ec" stroke-width="1"><path fill="none" class="highcharts-boxplot-stem" stroke="#7cb5ec" stroke-width="1" d="M 480.5 34 L 480.5 33 M 480.5 36 L 480.5 37"></path><path fill="none" class="highcharts-boxplot-whisker" stroke="#7cb5ec" stroke-width="2" d="M 470 33 L 491 33 M 470 37 L 491 37"></path><path fill="#ffffff" class="highcharts-boxplot-box" stroke="#7cb5ec" stroke-width="1" d="M 459.5 34.5 L 459.5 36.5 L 501.5 36.5 L 501.5 34.5 L 459.5 34.5 z"></path><path fill="none" class="highcharts-boxplot-median" stroke="#7cb5ec" stroke-width="2" d="M 459.5 35 L 501.5 35"></path></g><g class="highcharts-point"><path fill="none" class="highcharts-boxplot-stem" stroke="#7cb5ec" stroke-width="1" d="M 655.5 270 L 655.5 270 M 655.5 271 L 655.5 271"></path><path fill="none" class="highcharts-boxplot-whisker" stroke="#7cb5ec" stroke-width="2" d="M 645 270 L 666 270 M 645 271 L 666 271"></path><path fill="#ffffff" class="highcharts-boxplot-box" stroke="#7cb5ec" stroke-width="1" d="M 634.5 270.5 L 634.5 271.5 L 676.5 271.5 L 676.5 270.5 L 634.5 270.5 z"></path><path fill="none" class="highcharts-boxplot-median" stroke="#7cb5ec" stroke-width="2" d="M 634.5 271 L 676.5 271"></path></g><g class="highcharts-point " fill="#ffffff" stroke="#7cb5ec" stroke-width="1"><path fill="none" class="highcharts-boxplot-stem" stroke="#7cb5ec" stroke-width="1" d="M 1266.5 270 L 1266.5 270 M 1266.5 270 L 1266.5 271"></path><path fill="none" class="highcharts-boxplot-whisker" stroke="#7cb5ec" stroke-width="2" d="M 1256 270 L 1277 270 M 1256 271 L 1277 271"></path><path fill="#ffffff" class="highcharts-boxplot-box" stroke="#7cb5ec" stroke-width="1" d="M 1245.5 270.5 L 1245.5 270.5 L 1287.5 270.5 L 1287.5 270.5 L 1245.5 270.5 z"></path><path fill="none" class="highcharts-boxplot-median" stroke="#7cb5ec" stroke-width="2" d="M 1245.5 271 L 1287.5 271"></path></g></g><g class="highcharts-markers highcharts-series-0 highcharts-boxplot-series highcharts-color-0 " transform="translate(71,46) scale(1 1)" clip-path="none"></g></g><text x="677" text-anchor="middle" class="highcharts-title" style="color:#333333;font-size:18px;fill:#333333;" y="24"><tspan>TRIAE_CS42_2BS_TGACv1_146768_AA0472460</tspan></text><g class="highcharts-axis-labels highcharts-xaxis-labels "><text x="114.7" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>2.03 main shoot</tspan><tspan dy="12" x="114.7">and axillary</tspan><tspan dy="12" x="114.7">shoots visible at</tspan><tspan dy="12" x="114.7">three nodes</tspan><tspan dy="12" x="114.7">stage, leaf</tspan><title>2.03 main shoot and axillary shoots visible at three nodes stage, leaf</title></text><text x="202.10000000000002" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>cotyledon</tspan><tspan dy="12" x="202.10000000000002">emergence</tspan><tspan dy="12" x="202.10000000000002">stage, leaf</tspan><title>cotyledon emergence stage, leaf</title></text><text x="289.5" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>cotyledon</tspan><tspan dy="12" x="289.5">emergence</tspan><tspan dy="12" x="289.5">stage, root</tspan><title>cotyledon emergence stage, root</title></text><text x="376.90000000000003" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>whole plant fruit</tspan><tspan dy="12" x="376.90000000000003">formation stage</tspan><tspan dy="12" x="376.90000000000003">30 to 50%, fruit</tspan><title>whole plant fruit formation stage 30 to 50%, fruit</title></text><text x="464.3" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>whole plant fruit</tspan><tspan dy="12" x="464.3">formation stage</tspan><tspan dy="12" x="464.3">30 to 50%, leaf</tspan><title>whole plant fruit formation stage 30 to 50%, leaf</title></text><text x="551.7" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>whole plant fruit</tspan><tspan dy="12" x="551.7">formation stage</tspan><tspan dy="12" x="551.7">70% to final size,</tspan><tspan dy="12" x="551.7">fruit</tspan><title>whole plant fruit formation stage 70% to final size, fruit</title></text><text x="639.1" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>FL.02 1/2 of</tspan><tspan dy="12" x="639.1">flowers open</tspan><tspan dy="12" x="639.1">stage,</tspan><tspan dy="12" x="639.1">inflorescence</tspan><title>FL.02 1/2 of flowers open stage, inflorescence</title></text><text x="726.5" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>whole plant fruit</tspan><tspan dy="12" x="726.5">ripening stage,</tspan><tspan dy="12" x="726.5">fruit</tspan><title>whole plant fruit ripening stage, fruit</title></text><text x="813.9000000000001" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>FL.02 1/2 of</tspan><tspan dy="12" x="813.9000000000001">flowers open</tspan><tspan dy="12" x="813.9000000000001">stage, stem</tspan><title>FL.02 1/2 of flowers open stage, stem</title></text><text x="901.3000000000001" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>LP.03 three</tspan><tspan dy="12" x="901.3000000000001">leaves visible</tspan><tspan dy="12" x="901.3000000000001">stage, root</tspan><title>LP.03 three leaves visible stage, root</title></text><text x="988.7" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.00 stem</tspan><tspan dy="12" x="988.7">elongation</tspan><tspan dy="12" x="988.7">begins stage,</tspan><tspan dy="12" x="988.7">stem</tspan><title>SE.00 stem elongation begins stage, stem</title></text><text x="1076.1" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.02 two nodes</tspan><tspan dy="12" x="1076.1">or internodes</tspan><tspan dy="12" x="1076.1">visible stage,</tspan><tspan dy="12" x="1076.1">inflorescence</tspan><title>SE.02 two nodes or internodes visible stage, inflorescence</title></text><text x="1163.5" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.02 two nodes</tspan><tspan dy="12" x="1163.5">or internodes</tspan><tspan dy="12" x="1163.5">visible stage,</tspan><tspan dy="12" x="1163.5">stem</tspan><title>SE.02 two nodes or internodes visible stage, stem</title></text><text x="1250.9" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.99 maximum</tspan><tspan dy="12" x="1250.9">stem length</tspan><tspan dy="12" x="1250.9">reached stage,</tspan><tspan dy="12" x="1250.9">inflorescence</tspan><title>SE.99 maximum stem length reached stage, inflorescence</title></text><text x="1338.3000000000002" style="color:#666666;cursor:default;font-size:9px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="336" opacity="1"><tspan>SE.99 maximum</tspan><tspan dy="12" x="1338.3000000000002">stem length</tspan><tspan dy="12" x="1338.3000000000002">reached stage,</tspan><tspan dy="12" x="1338.3000000000002">root</tspan><title>SE.99 maximum stem length reached stage, root</title></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels "><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="323" opacity="1"><tspan>0</tspan></text><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="255" opacity="1"><tspan>100</tspan></text><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="187" opacity="1"><tspan>200</tspan></text><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="118" opacity="1"><tspan>300</tspan></text><text x="56" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="51" opacity="1"><tspan>400</tspan></text></g><g class="highcharts-label highcharts-tooltip highcharts-color-0" style="cursor:default;pointer-events:none;white-space:nowrap;" transform="translate(1050,-9999)" opacity="0" visibility="visible"><path fill="none" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 342.5 0.5 C 345.5 0.5 345.5 0.5 345.5 3.5 L 345.5 118.5 C 345.5 121.5 345.5 121.5 342.5 121.5 L 248.5 121.5 242.5 127.5 236.5 121.5 3.5 121.5 C 0.5 121.5 0.5 121.5 0.5 118.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="#000000" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></path><path fill="none" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 342.5 0.5 C 345.5 0.5 345.5 0.5 345.5 3.5 L 345.5 118.5 C 345.5 121.5 345.5 121.5 342.5 121.5 L 248.5 121.5 242.5 127.5 236.5 121.5 3.5 121.5 C 0.5 121.5 0.5 121.5 0.5 118.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="#000000" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></path><path fill="none" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 342.5 0.5 C 345.5 0.5 345.5 0.5 345.5 3.5 L 345.5 118.5 C 345.5 121.5 345.5 121.5 342.5 121.5 L 248.5 121.5 242.5 127.5 236.5 121.5 3.5 121.5 C 0.5 121.5 0.5 121.5 0.5 118.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="#000000" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></path><path fill="rgba(247,247,247,0.85)" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 342.5 0.5 C 345.5 0.5 345.5 0.5 345.5 3.5 L 345.5 118.5 C 345.5 121.5 345.5 121.5 342.5 121.5 L 248.5 121.5 242.5 127.5 236.5 121.5 3.5 121.5 C 0.5 121.5 0.5 121.5 0.5 118.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#7cb5ec" stroke-width="1"></path><text x="8" style="font-size:12px;color:#333333;fill:#333333;" y="20"><tspan style="font-style:italic">Factor: SE.99 maximum stem length reached stage, root</tspan><tspan style="fill:#7cb5ec" x="8" dy="15">●</tspan><tspan style="font-weight:bold" dx="0"> Observations</tspan><tspan x="8" dy="15">Maximum: 2</tspan><tspan x="8" dy="15">Upper quartile: 2</tspan><tspan x="8" dy="15">Median: 2</tspan><tspan x="8" dy="15">Lower quartile: 2</tspan><tspan x="8" dy="15">Minimum: 1</tspan></text></g></svg></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <footer id="local-footer" class="local-footer row expanded">
+            <div class="small-12 small-centered medium-8 large-6 columns">
+                <div class="row small-up-1 medium-up-3">
+                    <div class="column column-block margin-top-large margin-bottom-large text-center">
+                        <h4 style="color:white">Experiments</h4>
+                        <a href="http://www-test.ebi.ac.uk/gxa/experiments?experimentType=baseline" target="_blank">Baseline experiments</a><br>
+                        <a href="http://www-test.ebi.ac.uk/gxa/experiments?experimentType=differential" target="_blank">Differential experiments</a>
+                    </div>
+
+                    <div class="column column-block margin-top-large margin-bottom-large text-center">
+                        <h4 style="color:white">Atlas</h4>
+                        <a href="http://www-test.ebi.ac.uk/gxa/release-notes.html" target="_blank">Release notes</a><br>
+                        <a href="http://www-test.ebi.ac.uk/gxa/download.html" target="_blank">Download</a><br>
+                        <a href="http://www-test.ebi.ac.uk/gxa/help/index.html" target="_blank">Help</a><br>
+                        <a href="http://www-test.ebi.ac.uk/gxa/FAQ.html" target="_blank">FAQ</a><br>
+                        <a href="http://www-test.ebi.ac.uk/gxa/about.html" target="_blank">About Atlas</a>
+                    </div>
+
+                    <div class="column column-block margin-top-large margin-bottom-large text-center">
+                        <h4 style="color:white">Follow us</h4>
+                        <a href="https://twitter.com/ExpressionAtlas" target="_blank">Twitter</a><br>
+                        <a href="https://www.ebi.ac.uk/support/gxa" target="_blank">Feedback</a><br>
+                        <a href="mailto:arrayexpress-atlas@ebi.ac.uk" target="_blank">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     </div>
-</div>
 
 
-    </section>
 
+    <div id="global-footer" class="global-footer">
 
-<footer id="local-footer" class="local-footer row expanded">
-    <div class="small-12 small-centered medium-8 large-6 columns">
-        <div class="row small-up-1 medium-up-3">
-            <div class="column column-block margin-top-large margin-bottom-large text-center">
-                <h4 style="color:white">Experiments</h4>
-                <a href="http://www-test.ebi.ac.uk/gxa/experiments?experimentType=baseline" target="_blank">Baseline experiments</a><br>
-                <a href="http://www-test.ebi.ac.uk/gxa/experiments?experimentType=differential" target="_blank">Differential experiments</a>
+        <nav id="global-nav-expanded" class="row global-nav-expanded">
+            <div class="columns small-6 medium-2 "><a href="http://www.ebi.ac.uk/" title="EMBL-EBI"><span class="ebi-logo"></span></a></div>
+            <div class="columns small-6 medium-2">
+                <h5 class="services"><a class="services-color" href="http://www.ebi.ac.uk/services">Services</a></h5>
+                <ul>
+                    <li class="first"><a href="http://www.ebi.ac.uk/services">By topic</a></li>
+                    <li><a href="http://www.ebi.ac.uk/services/all">By name (A-Z)</a></li>
+                    <li class="last"><a href="http://www.ebi.ac.uk/support">Help &amp; Support</a></li>
+                </ul>
             </div>
-
-            <div class="column column-block margin-top-large margin-bottom-large text-center">
-                <h4 style="color:white">Atlas</h4>
-                <a href="http://www-test.ebi.ac.uk/gxa/release-notes.html" target="_blank">Release notes</a><br>
-                <a href="http://www-test.ebi.ac.uk/gxa/download.html" target="_blank">Download</a><br>
-                <a href="http://www-test.ebi.ac.uk/gxa/help/index.html" target="_blank">Help</a><br>
-                <a href="http://www-test.ebi.ac.uk/gxa/FAQ.html" target="_blank">FAQ</a><br>
-                <a href="http://www-test.ebi.ac.uk/gxa/about.html" target="_blank">About Atlas</a>
+            <div class="columns small-6 medium-2">
+                <h5 class="research"><a class="research-color" href="http://www.ebi.ac.uk/research">Research</a></h5>
+                <ul>
+                    <li><a href="http://www.ebi.ac.uk/research/publications">Publications</a></li>
+                    <li><a href="http://www.ebi.ac.uk/research/groups">Research groups</a></li>
+                    <li class="last"><a href="http://www.ebi.ac.uk/research/postdocs">Postdocs</a> &amp; <a href="http://www.ebi.ac.uk/research/eipp">PhDs</a></li>
+                </ul>
             </div>
-
-            <div class="column column-block margin-top-large margin-bottom-large text-center">
-                <h4 style="color:white">Follow us</h4>
-                <a href="https://twitter.com/ExpressionAtlas" target="_blank">Twitter</a><br>
-                <a href="https://www.ebi.ac.uk/support/gxa" target="_blank">Feedback</a><br>
-                <a href="mailto:arrayexpress-atlas@ebi.ac.uk" target="_blank">Contact</a>
+            <div class="columns small-6 medium-2">
+                <h5 class="training"><a class="training-color" href="http://www.ebi.ac.uk/training">Training</a></h5>
+                <ul>
+                    <li><a href="http://www.ebi.ac.uk/training/handson">Train at EBI</a></li>
+                    <li><a href="http://www.ebi.ac.uk/training/roadshow">Train outside EBI</a></li>
+                    <li><a href="http://www.ebi.ac.uk/training/online">Train online</a></li>
+                    <li class="last"><a href="http://www.ebi.ac.uk/training/contact-us">Contact organisers</a></li>
+                </ul>
             </div>
-        </div>
+            <div class="columns small-6 medium-2">
+                <h5 class="industry"><a class="industry-color" href="http://www.ebi.ac.uk/industry">Industry</a></h5>
+                <ul>
+                    <li><a href="http://www.ebi.ac.uk/industry/private">Members Area</a></li>
+                    <li><a href="http://www.ebi.ac.uk/industry/workshops">Workshops</a></li>
+                    <li><a href="http://www.ebi.ac.uk/industry/sme-forum"><abbr title="Small Medium Enterprise">SME</abbr> Forum</a></li>
+                    <li class="last"><a href="http://www.ebi.ac.uk/industry/contact">Contact Industry programme</a></li>
+                </ul>
+            </div>
+            <div class="columns small-6 medium-2">
+                <h5 class="about"><a class="ebi-color" href="http://www.ebi.ac.uk/about">About EMBL-EBI</a></h5>
+                <ul>
+                    <li><a href="http://www.ebi.ac.uk/about/contact">Contact us</a></li>
+                    <li><a href="http://www.ebi.ac.uk/about/events">Events</a></li>
+                    <li><a href="http://www.ebi.ac.uk/about/jobs" title="Jobs, postdocs, PhDs...">Jobs</a></li>
+                    <li class="first"><a href="http://www.ebi.ac.uk/about/news">News</a></li>
+                    <li><a href="http://www.ebi.ac.uk/about/people">People &amp; groups</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="ebi-footer-meta" class="row ebi-footer-meta">
+            <div class="columns">
+                <p class="address">EMBL-EBI, Wellcome Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK. +44 (0)1223 49 44 44</p>
+                <p class="legal">Copyright © EMBL-EBI 2017 | EMBL-EBI is <a href="http://www.embl.org/">part of the European Molecular Biology Laboratory</a> | <a href="http://www.ebi.ac.uk/about/terms-of-use">Terms of use</a><a class="readmore float-right" href="http://intranet.ebi.ac.uk/">Intranet</a></p>
+            </div>
+        </section>
+
     </div>
-</footer>
-
-</div>
 
 
-
-<div id="global-footer" class="global-footer">
-
-    <nav id="global-nav-expanded" class="row global-nav-expanded"><div class="columns small-6 medium-2 "><a href="http://www.ebi.ac.uk/" title="EMBL-EBI"><span class="ebi-logo"></span></a></div><div class="columns small-6 medium-2"><h5 class="services"><a class="services-color" href="http://www.ebi.ac.uk/services">Services</a></h5><ul> <li class="first"><a href="http://www.ebi.ac.uk/services">By topic</a></li>  <li><a href="http://www.ebi.ac.uk/services/all">By name (A-Z)</a></li>  <li class="last"><a href="http://www.ebi.ac.uk/support">Help &amp; Support</a></li> </ul></div><div class="columns small-6 medium-2"><h5 class="research"><a class="research-color" href="http://www.ebi.ac.uk/research">Research</a></h5><ul> <li><a href="http://www.ebi.ac.uk/research/publications">Publications</a></li>  <li><a href="http://www.ebi.ac.uk/research/groups">Research groups</a></li>  <li class="last"><a href="http://www.ebi.ac.uk/research/postdocs">Postdocs</a> &amp; <a href="http://www.ebi.ac.uk/research/eipp">PhDs</a></li> </ul></div><div class="columns small-6 medium-2"> <h5 class="training"><a class="training-color" href="http://www.ebi.ac.uk/training">Training</a></h5><ul> <li><a href="http://www.ebi.ac.uk/training/handson">Train at EBI</a></li>  <li><a href="http://www.ebi.ac.uk/training/roadshow">Train outside EBI</a></li>  <li><a href="http://www.ebi.ac.uk/training/online">Train online</a></li>  <li class="last"><a href="http://www.ebi.ac.uk/training/contact-us">Contact organisers</a></li> </ul></div> <div class="columns small-6 medium-2"> <h5 class="industry"><a class="industry-color" href="http://www.ebi.ac.uk/industry">Industry</a></h5><ul> <li><a href="http://www.ebi.ac.uk/industry/private">Members Area</a></li>  <li><a href="http://www.ebi.ac.uk/industry/workshops">Workshops</a></li>  <li><a href="http://www.ebi.ac.uk/industry/sme-forum"><abbr title="Small Medium Enterprise">SME</abbr> Forum</a></li>  <li class="last"><a href="http://www.ebi.ac.uk/industry/contact">Contact Industry programme</a></li> </ul></div> <div class="columns small-6 medium-2"> <h5 class="about"><a class="ebi-color" href="http://www.ebi.ac.uk/about">About EMBL-EBI</a></h5><ul>  <li><a href="http://www.ebi.ac.uk/about/contact">Contact us</a></li><li><a href="http://www.ebi.ac.uk/about/events">Events</a></li>  <li><a href="http://www.ebi.ac.uk/about/jobs" title="Jobs, postdocs, PhDs...">Jobs</a></li>  <li class="first"><a href="http://www.ebi.ac.uk/about/news">News</a></li>  <li><a href="http://www.ebi.ac.uk/about/people">People &amp; groups</a></li> </ul></div></nav>
-
-    <section id="ebi-footer-meta" class="row ebi-footer-meta"><div class="columns"><p class="address">EMBL-EBI, Wellcome Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK. +44 (0)1223 49 44 44</p> <p class="legal">Copyright © EMBL-EBI 2017 | EMBL-EBI is <a href="http://www.embl.org/">part of the European Molecular Biology Laboratory</a> | <a href="http://www.ebi.ac.uk/about/terms-of-use">Terms of use</a><a class="readmore float-right" href="http://intranet.ebi.ac.uk/">Intranet</a></p></div></section>
-
-</div>
-
-
-<!-- JavaScript -->
+    <!-- JavaScript -->
 
 
 
 
-<!-- The Foundation theme JavaScript -->
+    <!-- The Foundation theme JavaScript -->
 
 
 
-<!-- JSON Tag Editor -->
+    <!-- JSON Tag Editor -->
 
 
 
 
 
-
-<!-- Condition AUTOCOMPLETE -->
-
+    <!-- Condition AUTOCOMPLETE -->
 
 
 
-<!--//www.ebi.ac.uk/web_guidelines/js/downtime.js?417831 automatically inserted-->
+
+    <!--//www.ebi.ac.uk/web_guidelines/js/downtime.js?417831 automatically inserted-->
