@@ -4987,7 +4987,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../css-loader/lib
 
 
 // module
-exports.push([module.i, ".gene-autocomplete input {\n    text-overflow: ellipsis;\n    font-size: larger;\n    font-weight: bolder;\n    text-align: center;\n    color: #555;\n    background: #fff !important;\n    height: 2.4375rem;\n    width: 100%;\n    padding: 0;\n    margin: 0;\n    border: 1px solid ;\n    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);\n}\n\n.gene-autocomplete .menu {\n    font-size: small;\n  background: white;\n  z-index: 2;\n  padding:0;\n  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n}\n\n.gene-autocomplete .menu .menu-element {\n  cursor: pointer;\n  z-index: 600;\n  padding: 6px;\n  word-wrap: break-word;\n}\n", ""]);
+exports.push([module.i, ".gene-autocomplete textarea {\n    text-overflow: ellipsis;\n    font-size: larger;\n    font-weight: bolder;\n    text-align: center;\n    color: #555;\n    background: #fff !important;\n    height: 2.4375rem;\n    width: 100%;\n    padding: 0;\n    margin: 0;\n    border: 1px solid ;\n    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);\n}\n\n.gene-autocomplete .menu {\n    font-size: small;\n  background: white;\n  z-index: 2;\n  padding:0;\n  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);\n}\n\n.gene-autocomplete .menu .menu-element {\n  cursor: pointer;\n  z-index: 600;\n  padding: 6px;\n  word-wrap: break-word;\n}\n", ""]);
 
 // exports
 
