@@ -9,3 +9,10 @@ th.gxaHeatmapTableDesignElement {
 .tool-item {
     border: none !important;
 }
+
+.comment {
+    color: red;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
