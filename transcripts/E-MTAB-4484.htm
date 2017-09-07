@@ -1544,8 +1544,13 @@
                                             <a href="#">See results for this gene in other experiments</a> <span class="comment"> Unnecessary but proposed - links to the gene page</span>
 
                                             <div>
-                                                <h4>Attributes</h4>
+                                                <h4>Gene annotations</h4>
                                                 <div class="comment">
+                                                    +Attributes -> annotations
+                                                    Include also Reactome pathways
+                                                    Do not include "protein coding"
+                                                    Maybe not on top - now it looks like you will filter results you already have
+                                                    Similar: on the front page for an experiment have ready made categories that are enriched, facilitate searching for them
                                                      Unnecessary but proposed. When you click on these, the gene query box gets populated, and you see the gene you are looking at plus some context e.g. the rest of the pathway the gene is on. It's meant to reinforce that the user is looking at results for one gene, and might be useful - inspired by "filter by genes in paper". Cons: competes with the same information on the gene page.
                                                 </div>
 
@@ -1562,6 +1567,8 @@
                                             </div>
                                                 <h4>Expression values</h4>
                                                 <div class="comment">
+                                                    Switch this to the log scale!
+                                                    Users are used to it, the boxplots getting squashed are fine, etc.
                                                      We already have this, when you "switch to boxplot view"
                                                 </div>
 
@@ -1756,7 +1763,9 @@ Highcharts.chart('container3', {
 
 
 <div class="comment">
-    Different idea - forget the boxplots and put everything on one chart.
+    You can jitter the points slightly so they're not collinear - helps distinguish what's going on if there is a lot of assays per assay group
+
+    Proposal: also show the boxplots on this chart
 </div>
 
 <div id="container4" style="height: 400px; margin: auto; min-width: 310px; max-width: 600px"></div>
